@@ -44,24 +44,26 @@ Lassen Sie sich nicht durch potenziell verwirrende Verweise auf frühere Version
 
 Dadurch gelangen Sie zu einer GitHub-Seite, an deren Fuß sich Links zu vorgefertigter Software für MacOS- und Windows-Versionen befinden. Es gibt auch Links zum Quellcode sowie „Master-Tarballs“ für diejenigen, die ihre eigenen Änderungen vornehmen oder unter Linux installieren möchten.
 
+## Installation
+![](https://i.all3dp.com/workers/images/fit=cover,w=1000,gravity=0.5x0.5,format=auto/wp-content/uploads/2021/12/22121207/latest-pronterface-assets-on-github-github-211222_download-e1640176008641.jpg)  
 
-## Downloading  
+Die neuesten Pronterface-Assets auf GitHub (Quelle: [GitHub](https://github.com/kliment/Printrun/releases/tag/printrun-2.0.0rc8))
+Zum Zeitpunkt des Schreibens lautet die Versionsnummer (für die gesamte Printrun-Suite) 2.0.0rc8.
 
-![](https://i.all3dp.com/workers/images/fit=cover,w=1000,gravity=0.5x0.5,format=auto/wp-content/uploads/2021/12/22121202/click-the-highlighted-option-above-to-find-the-lat-pronterface-211222_download.jpg)  
-Click on the highlighted option as seen above to find the latest Pronterface release (Source: [Pronterface](http://www.pronterface.com/#download)) 
+### Windows
+Wenn Sie Windows verwenden, laden Sie die richtige (64- oder 32-Bit) ZIP-Datei herunter, extrahieren Sie den Inhalt an den gewünschten Ort, und Sie sollten bereit sein!
 
+Abhängig von den auf Ihrem Computer implementierten Sicherheitseinstellungen müssen Sie dem Programm jedoch möglicherweise ausdrücklich die Erlaubnis erteilen, ausgeführt zu werden. Möglicherweise müssen Sie Ihren Drucker auch anschließen, bevor Sie die Software zum ersten Mal ausführen, um eine bessere Chance zu haben, den richtigen COM-Anschluss zu finden.
 
-The best starting point to download Pronterface is [the Pronterface website](http://www.pronterface.com/). 
-This is actually the home of the entire [PrintRun](https://reprap.org/wiki/Printrun) suite of utilities, which includes Pronterface.
+Verwenden Sie den Windows-Geräte-Manager, um zu überprüfen, welcher COM-Anschluss Ihrem 3D-Drucker zugewiesen wurde – Sie benötigen diesen während der Einrichtung.
+Wenn Ihre Druckerverbindung nicht sichtbar ist oder Sie einen Gerätetreiberfehler erhalten, verwenden Sie entweder die Windows-Funktion „Treiber suchen“ oder besuchen Sie die Quelle zusätzlicher Treiber, die für Ihren Drucker oder seine Steuerplatine geeignet sind.
+([FTDI-Treiber](https://ftdichip.com/drivers/) ist eine gängige Quelle für Lösungen für 3D-Drucker.)
 
-Don’t be distracted by potentially confusing references to previous versions. The most up-to-date software can be found by clicking on the Download tab and then on the “Latest release” link, as seen in the image above.
-
-This will take you to a GitHub page at the foot of which are links to pre-packaged software for MacOS and Windows versions. There are also links to the source code as well as “master tarballs” for those wanting to make their own modifications or install it on Linux. 
-
+Zu diesem Zeitpunkt sollten Sie bereit sein, mit der Einrichtung fortzufahren.
 
 
 ## Installation
-![](https://i.all3dp.com/workers/images/fit=cover,w=1000,gravity=0.5x0.5,format=auto/wp-content/uploads/2021/12/22121207/latest-pronterface-assets-on-github-github-211222_download-e1640176008641.jpg)
+![](https://i.all3dp.com/workers/images/fit=cover,w=1000,gravity=0.5x0.5,format=auto/wp-content/uploads/2021/12/22121207/latest-pronterface-assets-on-github-github-211222_download-e1640176008641.jpg)  
 
 The latest Pronterface assets on GitHub (Source: [GitHub](https://github.com/kliment/Printrun/releases/tag/printrun-2.0.0rc8))
 At the time of writing, the version number (for all of the Printrun suite) is  2.0.0rc8.
