@@ -38,6 +38,8 @@ Die Karte sollte für Fat16 oder Fat32 formatiert sein.
 
 Um von Windows aus auf das Laufwerk zuzugreifen, geben Sie  in der Eingabeaufforderung „Ausführen“ ```\\esp_hostname_or_ip\DavWWWRoot``` ein oder verwenden Sie das Menü „Netzlaufwerk verbinden“ im Windows Explorer.
 
+Der esp_hostname lautet: http://fysetc/DavWWWRoot
+
 
 ### Kompilieren und hochladen
 
@@ -47,7 +49,8 @@ Wenn Sie die Firmware nicht aktualisieren möchten. Sie müssen dies nicht tun. 
 
 - Öffnen Sie das Projekt
   
-   Laden Sie dieses Projekt herunter und öffnen Sie es mit der Software [arduino](https://www.arduino.cc/).
+   Laden Sie dieses gesamte Projekt herunter und öffnen Sie das Projekt aus dem Verzeichnis `ESPWebDAV-fysetc`mit der Software [arduino](https://www.arduino.cc/). 
+   Ändern Sie die `SETUP.INI` wie nachfolgend beschrieben. 
 
 - Board-Manager-Link hinzufügen
   
