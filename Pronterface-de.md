@@ -17,8 +17,8 @@ In diesem Artikel werden wir uns genauer ansehen, was Pronterface ist, wie es ve
 
 ## Warum verwenden?
 
-![](https://i.all3dp.com/workers/images/fit=cover,w=1000,gravity=0.5x0.5,format=auto/wp-content/uploads/2021/12/22121159/the -pronterface-dashboard-reprap-wiki-211102_download-1.jpg)
-Das Pronterface Dashboard (Quelle: [RepRap Wiki](https://reprap.org/wiki/Printrun))
+![](https://i.all3dp.com/workers/images/fit=cover,w=1000,gravity=0.5x0.5,format=auto/wp-content/uploads/2021/12/22121159/the-pronterface-dashboard-reprap-wiki-211102_download-1.jpg)  
+Das Pronterface Dashboard (Quelle: [RepRap Wiki](https://reprap.org/wiki/Printrun))  
 
 Pronterface wurde ursprünglich entwickelt, um den End-to-End-3D-Druck-Workflow zu steuern, einschließlich Slicing (unter Verwendung von [Slic3r](https://all3dp.com/2/what-is-slic3r-simply-explained/)), und erfüllt tendenziell a heute eine einfachere Rolle.
 Doch trotz anderer Softwareoptionen, einschließlich [OctoPrint](https://all3dp.com/2/octoprint-setup-how-to-install-octopi-on-a-raspberry-pi/) und verschiedener „G-Code-Sender “, bietet Pronterface im Wesentlichen die gleiche Funktionalität, hat aber mehrere deutliche Vorteile.
@@ -30,21 +30,6 @@ Aufgrund seines langen Erbes und verschiedener Spin-off-Projekte kann das Herunt
 
 Wir haben unten aufgeführt, was Sie wissen müssen.
 
-
-## Why Use It?
-
-![](https://i.all3dp.com/workers/images/fit=cover,w=1000,gravity=0.5x0.5,format=auto/wp-content/uploads/2021/12/22121159/the-pronterface-dashboard-reprap-wiki-211102_download-1.jpg)  
-The Pronterface Dashboard (Source: [RepRap Wiki](https://reprap.org/wiki/Printrun))  
-
-Originally designed to control the end-to-end 3D printing workflow, including slicing (using [Slic3r](https://all3dp.com/2/what-is-slic3r-simply-explained/)), Pronterface tends to fulfil a simpler role today. 
-Yet, despite other software options, including [OctoPrint](https://all3dp.com/2/octoprint-setup-how-to-install-octopi-on-a-raspberry-pi/) and various “G-code senders”, providing much of the same functionality, Pronterface has several distinct advantages.
-
-In addition to running on multiple computer platforms, it’s simple to install, easy to learn (at least for the basic functionality), can be quickly customized to automate repetitive tasks, and is written in Python, allowing more technical users to make their own modifications.
-
-Pronterface has a [dedicated website](http://www.pronterface.com/) and its own section on the [RepRap wiki](https://reprap.org/wiki/Printrun). 
-However, because of its long heritage and various spin off projects, downloading and installing what you need has the potential to be a little confusing.
-
-We’ve set out what you need to know below.
 
 ## Downloading  
 
