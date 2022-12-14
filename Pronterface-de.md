@@ -14,6 +14,22 @@ Despite a fairly basic-looking design, with the bare minimum in graphics, it’s
 
 In this article, we’ll take a closer look at what Pronterface is, its uses, and how to install and run it.  
 
+# Pronterface: Herunterladen, Installieren und Einrichten – All3DP
+
+Quelle: [Pronterface: Anleitung zum Herunterladen, Installieren und Einrichten – All3DP](https://all3dp.com/2/pronterface-how-to-download-install-and-set-it-up/ "")
+
+Möchten Sie mehr Kontrolle über Ihren Drucker? Lesen Sie mit, während wir Pronterface herunterladen und installieren. Sie werden in kürzester Zeit sofortige Befehle erteilen!
+
+Pronterface ist eine einfache grafische Benutzeroberfläche, mit der Sie Ihren Drucker von einem über USB angeschlossenen Computer aus überwachen und steuern können.
+Damit können Sie Schrittmotoren direkt bewegen, Bett- und Düsentemperaturen steuern, [G-Code](https://all3dp.com/topic/G-code/ "") Befehle direkt über ein Terminal- oder Konsolenfenster senden und vieles mehr mehr.
+
+Pronterface wurde von der einflussreichen [RepRap](https://reprap.org/wiki/RepRap "")-Initiative entwickelt, gibt es schon seit langer Zeit und ist Teil der Printrun-Suite mit einfachen Tools zur Verwaltung und Steuerung beider 3D-Drucker und CNC-Maschinen.
+
+Das Programm wurde Anfang 2021 aktualisiert und läuft auf Windows-, Mac- und Linux-Computern.
+Trotz eines ziemlich einfach aussehenden Designs mit dem Nötigsten an Grafiken ist es ein sehr nützliches Werkzeug, das eine starke Position in der 3D-Druck-Community behält.
+
+In diesem Artikel werden wir uns genauer ansehen, was Pronterface ist, wie es verwendet wird und wie es installiert und ausgeführt wird.
+
 
 ## Why Use It?
 
