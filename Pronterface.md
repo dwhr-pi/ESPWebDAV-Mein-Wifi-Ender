@@ -47,7 +47,7 @@ This will take you to a GitHub page at the foot of which are links to pre-packag
 The latest Pronterface assets on GitHub (Source: GitHub)
 At the time of writing, the version number (for all of the Printrun suite) is  2.0.0rc8.
 
-Windows
+## Windows
 If you’re running Windows, download the correct (64- or 32-bit) zip file, extract the contents to the desired location, and you should be ready to go!
 
 However, depending on the security settings implemented on your computer, you may need to grant explicit permission for the program to run. You may also find that you need to plug in your printer before you first run the software, to give it a better chance of finding the right COM port.
@@ -58,4 +58,4 @@ If your printer connection isn’t visible or you get a device driver error, the
 
 By this stage, you should be ready to move onto setup.
 
-MacOS
+## MacOS
