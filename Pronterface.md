@@ -79,4 +79,53 @@ There are case examples for installation on Ubuntu/Debian, Fedora, Chrome OS, Ar
 
 The Linux instructions may also help those modifying the source code to run on Windows or Mac devices.
 
-In all cases, obviously, you’ll need the latest version of Python pre-installed, too.
+In all cases, obviously, you’ll need the latest version of Python pre-installed, too. 
+
+
+## Setup
+
+![](https://i.all3dp.com/workers/images/fit=cover,w=1000,gravity=0.5x0.5,format=auto/wp-content/uploads/2021/12/22121214/part-of-the-pronterface-setup-menus-ken-douglas-via-all3dp-211102_download-e1640175810953.jpg)  
+Part of the Pronterface Settings menu (Source: Ken Douglas via All3DP)  
+
+There are a few setup and configuration tasks to complete at this stage. First, select the port to which the printer is connected. On Windows, this will be something like COM8, while on a Mac, it will typically be a variant of “/usbmodem” or “/tty”. If these are not present, refer to the points about USB drivers and connections in the section above.
+
+Next check the communications speed. The default of 115200 is usually the best, but may vary according to your printer.
+
+At this stage, you can click connect and see a message confirming that Pronterface and your 3D printer are communicating. You will then be able to use the basic controls and also send G-code commands via the terminal. (See the section below.)
+
+Depending on the tasks you have in mind, you may need to further configure Pronterface so that it knows more about your printer. Do this by selecting the “Settings” menu option and then “Options” from the dropdown list. This will present a menu window with several tabs covering Printer settings, User interface, and more. 90% of the time, these do not need to altered.  
+
+## Operation
+
+![](https://i.all3dp.com/workers/images/fit=cover,w=1000,gravity=0.5x0.5,format=auto/wp-content/uploads/2021/12/22121217/getting-to-know-the-layout-wardsci-211102_download.jpg)
+Getting to know the layout (Source: [Wardsci](https://www.wardsci.com/assetsvc/asset/en_US/id/24203892/contents))  
+
+Although Pronterface can open and handle both STL and G-code files, it’s slow compared to a modern slicer and other tools that send G-code commands (such as OctoPrint). These days, therefore, its use is more focused on testing, configuration, calibration, and related tasks.
+
+Although some printers have built-in terminals to allow G-code to be entered and executed directly, Pronterface is usually quicker and easier. Plenty of recent YouTube videos on Pronterface tend to focus on this type of usage.
+
+Layout
+The following are the different parts of Pronterface (as seen above):
+
+A: Port Selection
+B: Control Panel
+C: Heater Control
+D Extruder Control
+E: Custom Button Area
+F: Command Line
+G: Command Window
+Printer Control & Simple G-code Commands
+The simple graphical interface makes it easy to control the basic features of a 3D printer, while other tasks require G-code commands to be typed in directly. This is a great way to learn about G-code.
+
+More experienced users may make use of advanced commands supported by whatever firmware their printer runs, such as the extensive list supported by Marlin.
+
+Custom Options 
+A particularly useful feature of Pronterface is the ability to quickly set up custom buttons that can store and automate frequently used G-code tasks. To do this, click the “+” icon in the Custom Button Area, enter a name, the G-code commands, and specify a color for the button. (Hint: the colors are specified using the hex standard.)
+
+These can be used for extruding specific lengths of filament, selectively enabling and disabling stepper motors, switching software endstops on and off, reporting saved configuration settings, moving to specified positions, switching peripherals (such as filament sensors) on and off, and much more.
+
+There are other G-code senders available, but few can be as universally deployed as Pronterface or have the potential to be tailored or modified for a variety of applications as this program.
+
+![]()
+
+![]()
