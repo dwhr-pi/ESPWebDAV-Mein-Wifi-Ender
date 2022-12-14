@@ -74,7 +74,7 @@ Preis: EUR 16,79 (inkl. MwSt.)
 Das SD-WIFI ist ein Modul, das ESPwebDev （https://github.com/ardyesp/ESPWebDAV） ausführen kann. 
 Wir haben es in Form einer SD-Karte gestaltet, sodass es direkt in einen vorhandenen SD-Kartensteckplatz eingesetzt und mit Strom versorgt werden kann.
 Sie können es mit dem von uns bereitgestellten seriellen Befehl mit dem Router verbinden und dann die zurückgegebene IP-Adresse notieren.
-Dann kann ein WebDAV-Client wie Windows auf das Dateisystem auf der SD-Karte wie auf eine Cloud-Festplatte zugreifen und remote replication / Paste / delete Dateien auf SD-Karte zulässt. 
+Dann kann ein WebDAV-Client wie Windows auf das Dateisystem auf der SD-Karte wie auf eine Cloud-Festplatte zugreifen und entfernt Befehle wie: replication / Paste / delete Dateien auf der SD-Karte zu lassen. 
 Wenn Sie eine Flash-Air-SD-Karte für Toshiba verwendet haben, sollten Sie diese Methode verstehen.
 Flash-Air kann jedoch nicht mit dem Router verbunden werden, da es als AP ausgeführt wird und nur ein Gerät damit verbunden werden kann.
 Wenn beispielsweise Ihr Computer damit verbunden ist, können Sie sich nicht mehr gleichzeitig mit dem Internet verbinden.
