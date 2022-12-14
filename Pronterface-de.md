@@ -75,19 +75,19 @@ Wie bei Windows-Maschinen kann das Erkennen des USB-Anschlusses eines 3D-Drucker
 Ihr Drucker sollte als „/usbmodem port“ oder ähnlich angezeigt werden. Wenn nicht, überprüfen Sie, ob die richtigen Treiber installiert sind (siehe Quellen wie [FTDI-Treiber](https://ftdichip.com/drivers/) um Hilfe zu erhalten).
 Wenn an Ihrem Mac zuvor andere USB-Geräte an denselben physischen Ports angeschlossen waren, müssen Sie möglicherweise auch neu starten.
 
-You can find the whole Printrun package for your OS (Source: [GitHub](https://all3dp.com/2/pronterface-how-to-download-install-and-set-it-up/#:~:text=You%20can%20find%20the%20whole%20Printrun%20package%20for%20your%20OS%20(Source%3A%20GitHub)))  
-
-To install on a Mac, download the “pronterface-macos-app” zip file and unpack it.
-
-By default, the Gatekeeper security feature in MacOS will reject Pronterface, as it hasn’t been explicitly “notarized” for use by Macs. 
-To run it, you’ll need to go to Settings, choose “Security & Privacy”, select the “General” tab, and explicitly allow it to run.
-
-As with Windows machines, recognizing a 3D printer’s USB port can in some cases be problematic. 
-Your printer should show up as “/usbmodem port” or something similar. If not, check that the correct drivers are installed (refer to sources like [FTDI drivers](https://ftdichip.com/drivers/) to help). 
-If your Mac has had other USB devices plugged into the same physical ports previously, you may also need to reboot. 
-
 
 ### Linux
+Vollständige Anweisungen zu Linux-Installationen finden Sie in Printrun2.x [README.md](https://github.com/kliment/Printrun/blob/master/README.md).
+
+Theoretisch sollte jedes Linux-Gerät mit der entsprechenden Python-Installation in der Lage sein, Pronterface auszuführen, obwohl dies vom physischen Build abhängt.
+Es gibt Fallbeispiele für die Installation unter Ubuntu/Debian, Fedora, Chrome OS, Archlinux und sogar [Raspbian](https://all3dp.com/2/noobs-vs-raspbian-difference/) auf einem [Raspberry Pi](https://all3dp.com/2/what-is-a-raspberry-pi/) (für die es ein dediziertes [Instructable] gibt (https://www.instructables.com/How-to-Control-a-3D -Printer-Via-Raspbery-Pi2/), obwohl Sie möglicherweise die Python-Referenzen aktualisieren müssen).
+
+Die Linux-Anweisungen können auch denjenigen helfen, die den Quellcode für die Ausführung auf Windows- oder Mac-Geräten ändern.
+
+In allen Fällen benötigen Sie natürlich auch die neueste Version von Python vorinstalliert.
+
+
+
 Full instructions on Linux installs are provided in the Printrun2.x [README.md](https://github.com/kliment/Printrun/blob/master/README.md).
 
 In theory, any Linux device with the appropriate Python installation should be able to run Pronterface, although this will depend on the physical build. 
