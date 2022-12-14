@@ -60,7 +60,7 @@ Wenn Sie die Firmware nicht aktualisieren möchten. Sie müssen dies nicht tun. 
 - Board auswählen
   
    Wählen Sie Tools->Boards->Alle und geben in die suchleiste `Generic ESP8285 Module` ein und klicken unten auf den installieren-Button.
-	![Ardurino - Generic ESP8285 Module](Ardurino-Generic_ESP8285_Module.png)
+	![Ardurino - Generic ESP8285 Module](assets/Ardurino-Generic_ESP8285_Module.png)
 - Klicken Sie auf die Arduino-Kompilierungsschaltfläche
 
 
