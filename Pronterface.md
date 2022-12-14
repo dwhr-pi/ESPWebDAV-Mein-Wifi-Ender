@@ -41,10 +41,10 @@ Don’t be distracted by potentially confusing references to previous versions. 
 
 This will take you to a GitHub page at the foot of which are links to pre-packaged software for MacOS and Windows versions. There are also links to the source code as well as “master tarballs” for those wanting to make their own modifications or install it on Linux. 
 
+
+
 ## Installation
-
-
-![]()
+![](https://i.all3dp.com/workers/images/fit=cover,w=1000,gravity=0.5x0.5,format=auto/wp-content/uploads/2021/12/22121207/latest-pronterface-assets-on-github-github-211222_download-e1640176008641.jpg)
 
 The latest Pronterface assets on GitHub (Source: GitHub)
 At the time of writing, the version number (for all of the Printrun suite) is  2.0.0rc8.
@@ -61,6 +61,7 @@ If your printer connection isn’t visible or you get a device driver error, the
 By this stage, you should be ready to move onto setup.
 
 ### MacOS
+![](https://i.all3dp.com/workers/images/fit=cover,w=1000,gravity=0.5x0.5,format=auto/wp-content/uploads/2021/12/22121210/you-can-find-the-whole-printrun-package-for-your-o-github-211222_download-e1640176039700.jpg)
 To install on a Mac, download the “pronterface-macos-app” zip file and unpack it.
 
 By default, the Gatekeeper security feature in MacOS will reject Pronterface, as it hasn’t been explicitly “notarized” for use by Macs. To run it, you’ll need to go to Settings, choose “Security & Privacy”, select the “General” tab, and explicitly allow it to run.
