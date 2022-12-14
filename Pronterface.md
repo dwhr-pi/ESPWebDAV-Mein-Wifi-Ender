@@ -63,7 +63,9 @@ If your printer connection isn’t visible or you get a device driver error, the
 By this stage, you should be ready to move onto setup.
 
 ### MacOS
-![](https://i.all3dp.com/workers/images/fit=cover,w=1000,gravity=0.5x0.5,format=auto/wp-content/uploads/2021/12/22121210/you-can-find-the-whole-printrun-package-for-your-o-github-211222_download-e1640176039700.jpg)
+![](https://i.all3dp.com/workers/images/fit=cover,w=1000,gravity=0.5x0.5,format=auto/wp-content/uploads/2021/12/22121210/you-can-find-the-whole-printrun-package-for-your-o-github-211222_download-e1640176039700.jpg)  
+You can find the whole Printrun package for your OS (Source: [GitHub](https://all3dp.com/2/pronterface-how-to-download-install-and-set-it-up/#:~:text=You%20can%20find%20the%20whole%20Printrun%20package%20for%20your%20OS%20(Source%3A%20GitHub)))  
+
 To install on a Mac, download the “pronterface-macos-app” zip file and unpack it.
 
 By default, the Gatekeeper security feature in MacOS will reject Pronterface, as it hasn’t been explicitly “notarized” for use by Macs. To run it, you’ll need to go to Settings, choose “Security & Privacy”, select the “General” tab, and explicitly allow it to run.
