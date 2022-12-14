@@ -68,7 +68,8 @@ You can find the whole Printrun package for your OS (Source: [GitHub](https://al
 
 To install on a Mac, download the “pronterface-macos-app” zip file and unpack it.
 
-By default, the Gatekeeper security feature in MacOS will reject Pronterface, as it hasn’t been explicitly “notarized” for use by Macs. To run it, you’ll need to go to Settings, choose “Security & Privacy”, select the “General” tab, and explicitly allow it to run.
+By default, the Gatekeeper security feature in MacOS will reject Pronterface, as it hasn’t been explicitly “notarized” for use by Macs. 
+To run it, you’ll need to go to Settings, choose “Security & Privacy”, select the “General” tab, and explicitly allow it to run.
 
 As with Windows machines, recognizing a 3D printer’s USB port can in some cases be problematic. 
 Your printer should show up as “/usbmodem port” or something similar. If not, check that the correct drivers are installed (refer to sources like [FTDI drivers](https://ftdichip.com/drivers/) to help). 
@@ -111,7 +112,7 @@ Although some printers have built-in terminals to allow G-code to be entered and
 Layout
 The following are the different parts of Pronterface (as seen above):
 
-A: Port Selection
+- A: Port Selection
 B: Control Panel
 C: Heater Control
 D Extruder Control
