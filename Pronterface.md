@@ -31,10 +31,11 @@ We’ve set out what you need to know below.
 ## Downloading  
 
 ![](https://i.all3dp.com/workers/images/fit=cover,w=1000,gravity=0.5x0.5,format=auto/wp-content/uploads/2021/12/22121202/click-the-highlighted-option-above-to-find-the-lat-pronterface-211222_download.jpg)  
-Click on the highlighted option as seen above to find the latest Pronterface release (Source: Pronterface) 
+Click on the highlighted option as seen above to find the latest Pronterface release (Source: [Pronterface](http://www.pronterface.com/#download)) 
 
 
-The best starting point to download Pronterface is the Pronterface website. This is actually the home of the entire PrintRun suite of utilities, which includes Pronterface.
+The best starting point to download Pronterface is the [Pronterface website](http://www.pronterface.com/). 
+This is actually the home of the entire [PrintRun suite](https://reprap.org/wiki/Printrun) of utilities, which includes Pronterface.
 
 Don’t be distracted by potentially confusing references to previous versions. The most up-to-date software can be found by clicking on the Download tab and then on the “Latest release” link, as seen in the image above.
 
