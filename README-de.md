@@ -71,7 +71,7 @@ Preis: EUR 16,79 (inkl. MwSt.)
 
 ### Introduction
 
-Das SD-WIFI ist ein Modul, das ESPwebDev （https://github.com/ardyesp/ESPWebDAV） ausführen kann. 
+Das SD-WIFI ist ein Modul, das ESPwebDev（https://github.com/ardyesp/ESPWebDAV） ausführen kann. 
 Wir haben es in Form einer SD-Karte gestaltet, sodass es direkt in einen vorhandenen SD-Kartensteckplatz eingesetzt und mit Strom versorgt werden kann.
 Sie können es mit dem von uns bereitgestellten seriellen Befehl mit dem Router verbinden und dann die zurückgegebene IP-Adresse notieren.
 Dann kann ein WebDAV-Client wie Windows auf das Dateisystem auf der SD-Karte wie auf eine Cloud-Festplatte zugreifen und entfernt Befehle wie: replication / Paste / delete Dateien auf der SD-Karte zu lassen.  
