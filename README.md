@@ -14,7 +14,7 @@ Der ESP8266-Code vermeidet den Zugriff auf die Micro-SD-Karte, wenn Marlin (Druc
 
 GCode kann direkt vom Slicer (Cura) auf dieses Remote-Laufwerk hochgeladen werden, wodurch der Arbeitsablauf vereinfacht wird.
 
-![Printer Hookup Diagram](PrinterHookup2.jpg)
+![Printer Hookup Diagram](assets/PrinterHookup2.jpg)
 
 ## Abhängigkeiten:  
 1. [ESP8266 Arduino Core version 2.4](https://github.com/esp8266/Arduino)
@@ -58,7 +58,76 @@ Er verwendet dazu: [FYSETC/ESPWebDAV](https://github.com/FYSETC/ESPWebDAV "") un
 Ab 6:20 min. beschreibt er, das er dazu [Pronterface](https://www.google.com/search?q=pronterface+download&oq=Pronterface&aqs=chrome.1.69i57j0i512l9.3406j0j7&sourceid=chrome&ie=UTF-8 "") und dies ist eine [Pronterface: Printrun: Pure Python 3d printing host software](https://www.pronterface.com/ "") verwendet. 
 Für Pronterface gibt es eine weitere Beschreibung [Pronterface: How to Download, Install & Set It Up - All3DP](https://all3dp.com/2/pronterface-how-to-download-install-and-set-it-up/ "").
 
+## kurze Anleitung: 
 
+Schritt: Wenn Du einen mSD-Adapter nutzen möchtest, so brauchst Du nur Schritt 3 zu befolgen. 
+Und kopierst die Dateinen auf die mSD in das Stammverzeichnis. 
+
+Schritt: Wenn Du keinen mSD-Adapter nutzen möchtest.
+Am Gehäusebefindet sich ein kleiner Schalter. 
+Siehe dies im Video bei 6.00 min. 
+Stelle diesen auf "Cardreader" und lege eine mSD ein, wie im Video zu sehen. 
+Verbinde nun den Stick mit dem Computer per USB Kabel. 
+
+Schritt: Kopiere nun die Dateien von [FYSETC/ESPWebDAV](https://github.com/FYSETC/ESPWebDAV "") in das Stammverzeichnis auf die mSD. 
+
+Schritt: Das WLan und das Passwort einrichten. 
+Öffne und editiere die Datei `Setup.ini` im Verzeichnis `ini`. 
+Ersetze dort die XXXXX mit deinem Wlan und bei Password den Netzwerkschlüssel und speichere die Datei auf dem USB-Stick ab. 
+
+Entferne nun durch sicheres entfernen den USB-Stick aus dem Computer. 
+
+Schritt: Nur erfoderlich, wenn man Pronterface testen möchte. 
+Stelle nun den Schalter auf `USB2UART` am USB-Stick um. 
+Stecke den Stick wieder ein. 
+
+Schritt: Nicht erfoderlich aber hilfreich: Nun öffne die Systemsteuerung und dort öffne den Geräte-Manager. 
+Unter `Anschlüsse (COM & LTP) findest Du diesen neuen Stick. 
+Falls nicht, zieh diesen Stick ab und steck diesen erneut wieder ein. 
+Bei mir erschien das Gerät als `USB-SERIAL CH340 (COM3)` 
+
+Schritt: Dieser Schritt dient hauptsächlich nur dazu, um die WLan-Verbindung mit dem Drucker zu testen und um zu erfahren, wie sich zukünftig das Netzwerklaufwerk Deines Druckers nennt und dies zu erreichen ist. 
+Öffne hierzu das Programm `pronterface` 
+Ist Pronterface dort auf COM1 voreingestellt, so findet Pronterface die SD-Karte leider nicht. 
+DAher hatte ich den vorherigen Schritt beschrieben, welchen COM-Port Pronterface finden sollte. 
+Rescan durchführen: Dazu auf den Port-Button mit der Maustaste links anklicken, um damit die SD-Karte durch rescan zu suchen. 
+Jetzt sollte dort der übereinstimmende COM-Port `COM3` stehen. 
+Nun rechtsdaneben den Button `Connect` anklicken, an der Bautrate ändern wir nichts. 
+Sobald rechts im grauen Fenster `Connecting...` steht
+Es sollte jetzt im rechten Fenster `Printer is now online.` ausgeben werden.
+
+Schritt: Jetzt kann man unten in der Befehlszeile die drei nachfolgenden notwendigen Befehle: 
+`M50 DeinWLAN-Netzwerknamen`. 
+`M51 DeinWLAN-Passwort` 
+`M52` 
+Zurückgegeben wird nun im grauen Ausgabefenster Deine gegenwärtige IP-Adresse für das Gerät, sowie die Verbindungsbezeichnung zu Deinem Netzwerklaufwerk. 
+
+
+`\\Deine-IP-Adresse\DavWWWRoot` ist das sehr einfache Webinterface Deines Druckers nun küftig darunter erreichbar, es wird weil das Interface nicht sehr entwickelt ist, anstelle einer Fehlerangabe des Browsers (Seite nicht gefunden) einen Fehlerbericht Deines WebDAV-Servers des Drucker ausgegeben. 
+Der Inhalt sollte lauten: 
+```
+Not found
+URI: /DavWWWRoot Method: GET
+```
+
+Somit kann man die mSD-Karte von der SD-Karte nun als ein Netzwerk-Laufwerk mit in den Computer einbinden und dies sollte wirklich funktionieren. 
+Bedenke, das Netzwerklaufwerk steht nur dann zur Verfügung, wenn auch der Drucker eingeschaltet wurde. 
+
+In Deinem Router sollte unter dieser IP-Adresse das Gerät `FYSETC` nun erscheinen, ändere den Namen oder passe die IP-Adresse als feste `statische`an. 
+Damit das Netzwerklaufwerk künfitig vom Computer auch wieder gefunden wird. 
+
+Schritt: Als wenn dieses Netzwerklaufwerk eine mobile Festplatte ist, braucht man künfitg nur nooch die zu druckenen Dateien in dem Verzeichnis des Netzwerklaufwerkes abzulegen. 
+Also mit dem Slicer bzw. Cura einfach die Dateien an diesem ort apspeichern. 
+Der Drucker sollte kurz vor dem Abspeichern eingeschaltet sein. 
+Nur 11 Zeichen sind bei mir beim Umbennen des Netzwerklaufwerks gestattet. 
+
+Hinweis: Beim einstecken der SD-Karte in den SD-Kartenadapter unbedingt auf den richtigen sitz achten. 
+Eine rote LED beginnt gut 30 sek. später nach dem einstecken an zu blinken. 
+
+Anmerkung: 
+Als problematisch zeigten sich Leerzeichen in den Dateinamen auf der mSD-Karte und auch in der SSID, also keine Leerzeichen im WLan-Netzwerknamen oder WLan-Passwort. 
+
+Sollten Sie die Treiber nicht oder noch nicht auf Ihrem Computer installiert haben, dann können Sie auf des Netzwerklaufwerk weder Dateien hochladen, modifiezeren oder löschen. 
 ![SD-WIFI with Card-Reader Module ESP8266 USB to serial Wireless Transmission NEW](assets/s-l500.jpg)  
 [Ebay: SD-WIFI with Card-Reader Module ESP8266 USB to serial Wireless Transmission NEW](https://www.ebay.de/itm/265689753420?_trkparms=amclksrc%3DITM%26aid%3D777008%26algo%3DPERSONAL.TOPIC%26ao%3D1%26asc%3D20220822113838%26meid%3Dc43b115613e1420491e2ab98faffd084%26pid%3D101524%26rk%3D1%26rkt%3D1%26sd%3D122891034180%26itm%3D265689753420%26pmt%3D0%26noa%3D1%26pg%3D2380057%26algv%3DRecentlyViewedItemsV2%26brand%3DMarkenlos&_trksid=p2380057.c101524.m146925&_trkparms=pageci%3A42190337-7bd1-11ed-94b4-6a2cf1bac2ca%7Cparentrq%3A119783e41850aa702763a77dfff8a302%7Ciid%3A1)  
 Preis: EUR 16,64 (inkl. MwSt.)  
