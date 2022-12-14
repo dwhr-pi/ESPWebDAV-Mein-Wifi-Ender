@@ -46,3 +46,9 @@ LCD Schematics - [http://reprap.org/mediawiki/images/7/79/LCD_connect_SCHDOC.pdf
 
 
 
+## Das Video ist auf Youtube
+[SD Card + ESP8266 = OctoPrint Alternative?](https://www.youtube.com/watch?v=nHNZPRl8gzA&t=620s) bei 5:54 beschreibt `"Thomas Sanladerer"` das WiFi-Setup. 
+Er verwendet dazu: 
+[FYSETC/ESPWebDAV](https://github.com/FYSETC/ESPWebDAV) und stellt einen Clone von original [ardyesp/ESPWebDAV](https://github.com/ardyesp/ESPWebDAV) da.
+
+
