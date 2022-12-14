@@ -69,10 +69,10 @@ If your Mac has had other USB devices plugged into the same physical ports previ
 
 
 ### Linux
-Full instructions on Linux installs are provided in the Printrun2.x (README.md)[https://github.com/kliment/Printrun/blob/master/README.md].
+Full instructions on Linux installs are provided in the Printrun2.x [README.md](https://github.com/kliment/Printrun/blob/master/README.md).
 
 In theory, any Linux device with the appropriate Python installation should be able to run Pronterface, although this will depend on the physical build. 
-There are case examples for installation on Ubuntu/Debian, Fedora, Chrome OS, Archlinux, and even (Raspbian)[https://all3dp.com/2/noobs-vs-raspbian-difference/] on a (Raspberry Pi)[https://all3dp.com/2/what-is-a-raspberry-pi/] (for which there’s a dedicated (Instructable)[https://www.instructables.com/How-to-Control-a-3D-Printer-Via-Raspbery-Pi2/], although you may need to update the Python references).
+There are case examples for installation on Ubuntu/Debian, Fedora, Chrome OS, Archlinux, and even [Raspbian](https://all3dp.com/2/noobs-vs-raspbian-difference/) on a [Raspberry Pi](https://all3dp.com/2/what-is-a-raspberry-pi/) (for which there’s a dedicated (Instructable)[https://www.instructables.com/How-to-Control-a-3D-Printer-Via-Raspbery-Pi2/], although you may need to update the Python references).
 
 The Linux instructions may also help those modifying the source code to run on Windows or Mac devices.
 
