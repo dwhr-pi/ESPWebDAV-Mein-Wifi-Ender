@@ -64,7 +64,7 @@ Zu diesem Zeitpunkt sollten Sie bereit sein, mit der Einrichtung fortzufahren.
 
 ### MacOS
 ![](https://i.all3dp.com/workers/images/fit=cover,w=1000,gravity=0.5x0.5,format=auto/wp-content/uploads/2021/12/22121210/you-can-find-the-whole-printrun-package-for-your-o-github-211222_download-e1640176039700.jpg)  
-Sie finden das gesamte Printrun-Paket für Ihr Betriebssystem (Quelle: [GitHub](https://all3dp.com/2/pronterface-how-to-download-install-and-set-it-up/#:~:text =Sie%20finden%20das%20ganze%20gedruckte%20Paket%20für%20Ihr%20OS%20(Quelle%3A%20GitHub)))
+Sie finden das gesamte Printrun-Paket für Ihr Betriebssystem (Quelle: [GitHub](https://all3dp.com/2/pronterface-how-to-download-install-and-set-it-up/#:~:text=You%20can%20find%20the%20whole%20Printrun%20package%20for%20your%20OS%20(Source%3A%20GitHub)))  
 
 Um auf einem Mac zu installieren, laden Sie die ZIP-Datei „pronterface-macos-app“ herunter und entpacken Sie sie.
 
@@ -72,7 +72,7 @@ Standardmäßig lehnt die Gatekeeper-Sicherheitsfunktion in MacOS Pronterface ab
 Um es auszuführen, müssen Sie zu den Einstellungen gehen, „Sicherheit und Datenschutz“ auswählen, die Registerkarte „Allgemein“ auswählen und die Ausführung explizit zulassen.
 
 Wie bei Windows-Maschinen kann das Erkennen des USB-Anschlusses eines 3D-Druckers in einigen Fällen problematisch sein.
-Ihr Drucker sollte als „/usbmodem port“ oder ähnlich angezeigt werden. Wenn nicht, überprüfen Sie, ob die richtigen Treiber installiert sind (siehe Quellen wie [FTDI-Treiber] (https://ftdichip.com/drivers/) um Hilfe zu erhalten).
+Ihr Drucker sollte als „/usbmodem port“ oder ähnlich angezeigt werden. Wenn nicht, überprüfen Sie, ob die richtigen Treiber installiert sind (siehe Quellen wie [FTDI-Treiber](https://ftdichip.com/drivers/) um Hilfe zu erhalten).
 Wenn an Ihrem Mac zuvor andere USB-Geräte an denselben physischen Ports angeschlossen waren, müssen Sie möglicherweise auch neu starten.
 
 You can find the whole Printrun package for your OS (Source: [GitHub](https://all3dp.com/2/pronterface-how-to-download-install-and-set-it-up/#:~:text=You%20can%20find%20the%20whole%20Printrun%20package%20for%20your%20OS%20(Source%3A%20GitHub)))  
