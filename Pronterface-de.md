@@ -31,6 +31,20 @@ Aufgrund seines langen Erbes und verschiedener Spin-off-Projekte kann das Herunt
 Wir haben unten aufgeführt, was Sie wissen müssen.
 
 
+## Herunterladen
+
+![](https://i.all3dp.com/workers/images/fit=cover,w=1000,gravity=0.5x0.5,format=auto/wp-content/uploads/2021/12/22121202/click-the-highlighted-option-above-to-find-the-lat-pronterface-211222_download.jpg)  
+Klicken Sie auf die hervorgehobene Option wie oben gezeigt, um die neueste Pronterface-Version zu finden (Quelle: [Pronterface](http://www.pronterface.com/#download))
+
+
+Der beste Ausgangspunkt zum Herunterladen von Pronterface ist [die Pronterface-Website](http://www.pronterface.com/).
+Dies ist eigentlich die Heimat der gesamten [PrintRun](https://reprap.org/wiki/Printrun)-Suite von Dienstprogrammen, einschließlich Pronterface.
+
+Lassen Sie sich nicht durch potenziell verwirrende Verweise auf frühere Versionen ablenken. Die aktuellste Software finden Sie, indem Sie auf die Registerkarte „Download“ und dann auf den Link „Neueste Version“ klicken, wie im Bild oben zu sehen.
+
+Dadurch gelangen Sie zu einer GitHub-Seite, an deren Fuß sich Links zu vorgefertigter Software für MacOS- und Windows-Versionen befinden. Es gibt auch Links zum Quellcode sowie „Master-Tarballs“ für diejenigen, die ihre eigenen Änderungen vornehmen oder unter Linux installieren möchten.
+
+
 ## Downloading  
 
 ![](https://i.all3dp.com/workers/images/fit=cover,w=1000,gravity=0.5x0.5,format=auto/wp-content/uploads/2021/12/22121202/click-the-highlighted-option-above-to-find-the-lat-pronterface-211222_download.jpg)  
