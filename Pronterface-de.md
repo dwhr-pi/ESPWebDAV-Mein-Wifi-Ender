@@ -21,7 +21,7 @@ In diesem Artikel werden wir uns genauer ansehen, was Pronterface ist, wie es ve
 Das Pronterface Dashboard (Quelle: [RepRap Wiki](https://reprap.org/wiki/Printrun))  
 
 Pronterface wurde ursprünglich entwickelt, um den End-to-End-3D-Druck-Workflow zu steuern, einschließlich Slicing (unter Verwendung von [Slic3r](https://all3dp.com/2/what-is-slic3r-simply-explained/)), und erfüllt tendenziell a heute eine einfachere Rolle.
-Doch trotz anderer Softwareoptionen, einschließlich [OctoPrint](https://all3dp.com/2/octoprint-setup-how-to-install-octopi-on-a-raspberry-pi/) und verschiedener „G-Code-Sender“, bietet Pronterface im Wesentlichen die gleiche Funktionalität, hat aber mehrere deutliche Vorteile.
+Doch trotz anderer Softwareoptionen, einschließlich [OctoPrint](https://all3dp.com/2/octoprint-setup-how-to-install-octopi-on-a-raspberry-pi/) und verschiedener "G-Code-Sender", bietet Pronterface im Wesentlichen die gleiche Funktionalität, hat aber mehrere deutliche Vorteile.
 
 Es läuft nicht nur auf mehreren Computerplattformen, es ist einfach zu installieren, leicht zu erlernen (zumindest für die Grundfunktionen), kann schnell angepasst werden, um sich wiederholende Aufgaben zu automatisieren, und ist in Python geschrieben, sodass technisch versiertere Benutzer ihre eigenen Änderungen vornehmen können. 
 
