@@ -21,7 +21,7 @@ GCode kann direkt vom Slicer (Cura) auf dieses Remote-Laufwerk hochgeladen werde
 2. [SdFat library](https://github.com/greiman/SdFat)
   
 
-## Verwenden:
+## Verwendung  :
 Kompilieren Sie das Programm und laden Sie es in ein ESP8266-Modul hoch. ESP12-E wurde für Entwicklung und Tests verwendet.
 Verbinden Sie die SPI-Busleitungen mit der SD-Karte.  
 
@@ -37,6 +37,86 @@ GPIO5|CS Sense
 Die Karte sollte für Fat16 oder Fat32 formatiert sein.  
 
 Um von Windows aus auf das Laufwerk zuzugreifen, geben Sie  in der Eingabeaufforderung „Ausführen“ ```\\esp_hostname_or_ip\DavWWWRoot``` ein oder verwenden Sie das Menü „Netzlaufwerk verbinden“ im Windows Explorer.
+
+
+### Kompilieren und hochladen
+
+#### Kompilieren
+
+Wenn Sie die Firmware nicht aktualisieren möchten. Sie müssen dies nicht tun. Kompilieren Sie das Programm und laden Sie es in ein ESP8266-Modul hoch.
+
+- Öffnen Sie das Projekt
+  
+   Laden Sie dieses Projekt herunter und öffnen Sie es mit der Software [arduino](https://www.arduino.cc/).
+
+- Board-Manager-Link hinzufügen
+  
+   Boardmanager-Link hinzufügen: `https://arduino.esp8266.com/stable/package_esp8266com_index.json` zu File->Preferences Boardmanager, Dokumentation: https://arduino-esp8266.readthedocs.io/en/2.7.1/
+
+- Brett auswählen
+  
+   Wählen Sie Tools->Boards->Generic ESP8285 Module.
+
+- Klicken Sie auf die Arduino-Kompilierungsschaltfläche
+
+
+
+#### Hochladen
+
+1. Stecken Sie das USB-Kabel in Ihren Computer
+2. Stellen Sie den Schalter am Modul auf „USB2UART“.
+3. Halten Sie das Modul FLSH gedrückt
+4. Verbinden Sie das USB-Kabel mit dem Modul
+5. Lassen Sie die FLSH-Taste des Moduls los
+6. Klicken Sie auf die Arduino-Upload-Schaltfläche
+
+### Konfiguration
+
+Zuerst können Sie unser Video [hier](https://www.youtube.com/watch?v=YAFAK-jPcOs) sehen. Sie haben zwei Möglichkeiten, das Modul zu konfigurieren.
+
+*Hinweis: Die Karte sollte für Fat16 oder Fat32 formatiert sein*
+
+#### Option 1: INI-Datei
+
+Sie können die Beispieldatei ```SETUP.INI``` im Ordner ```ini``` bearbeiten, den SSID- und PASSWORD-Wert ändern. Kopieren Sie dann die Datei „SETUP.INI“ auf Ihre Root-SD-Karte. Stecken Sie es dann in das Modul.
+
+1. Drehen Sie den Optionsschalter des Moduls auf ```USB2UART```
+2. Öffnen Sie eine COM-Software auf Ihrem Computer
+3. Schließen Sie das Modul mit einem USB-Kabel an Ihren Computer an
+4. Öffnen Sie den COM-Port der Software
+
+Sie können die Modul-IP und andere Informationen sehen.
+
+*Hinweis: Wenn Sie die serielle Ausgabe vermissen, können Sie im Modul auf die Schaltfläche „RST“ klicken.*
+
+#### Option 2 : Befehl
+
+Legen Sie Ihre SD-Karte in das Modul ein.
+
+1. Drehen Sie den Optionsschalter des Moduls auf ```USB2UART```
+2. Öffnen Sie eine COM-Software auf Ihrem Computer
+3. Schließen Sie das Modul mit einem USB-Kabel an Ihren Computer an
+4. Öffnen Sie den COM-Port der Software
+
+Verwenden Sie den folgenden Befehl, um eine Verbindung zum Netzwerk herzustellen oder den Netzwerkstatus zu überprüfen
+
+     M50: Stellen Sie die WLAN-Ssid ein, 'M50 ssid-name'
+     M51: Stellen Sie das WLAN-Passwort ein, 'M51-Passwort'
+     M52: Starten Sie die WLAN-Verbindung
+     M53: Überprüfen Sie den Verbindungsstatus
+
+### Zugang
+
+#### Fenster
+
+Um von Windows aus auf das Laufwerk zuzugreifen, geben Sie ```\\ip\DavWWWRoot``` am Run-Prompt ein, dies wird in der seriellen Ausgabe als unser [video](https://www.youtube.com/watch?v= YAFAK-jPcOs) zeigt.
+
+Oder verwenden Sie das Menü Netzlaufwerk verbinden im Windows Explorer.
+
+#### MAC
+
+Sie müssen nur ```http://192.168.0.x``` in der Option für den Zugriff auf das Netzwerklaufwerk verwenden
+
 
 ## Verweise
 Marlin Firmware - [http://marlinfw.org/](http://marlinfw.org/)   
