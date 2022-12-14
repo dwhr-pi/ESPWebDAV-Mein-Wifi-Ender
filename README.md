@@ -93,3 +93,10 @@ USB toggle switch (between card reader and serial chip)
  
  
 Package Included: 1pcs 
+
+
+Guarantee
+
+1. 12 months Manufacturer’s limited Warranty for defective items (excluding items damaged and/or misused after receipt). Accessories come with a 3-month warranty.
+2. Defective items MUST BE reported and returned within the warranty period (and in the original packaging, if possible). You must tell us what the defect is and give us your order number. 
+WE DO NOT REPAIR OR REPLACE ITEMS WITH AN EXPIRED WARRANTY.
