@@ -74,7 +74,7 @@ Preis: EUR 16,79 (inkl. MwSt.)
 Das SD-WIFI ist ein Modul, das ESPwebDev（https://github.com/ardyesp/ESPWebDAV） ausführen kann. 
 Wir haben es in Form einer SD-Karte gestaltet, sodass es direkt in einen vorhandenen SD-Kartensteckplatz eingesetzt und mit Strom versorgt werden kann.
 Sie können es mit dem von uns bereitgestellten seriellen Befehl mit dem Router verbinden und dann die zurückgegebene IP-Adresse notieren.
-Dann kann ein WebDAV-Client wie Windows auf das Dateisystem auf der SD-Karte wie auf eine Cloud-Festplatte zugreifen und entfernt Befehle wie: replication / Paste / delete Dateien auf der SD-Karte zu lassen.  
+Dann kann ein WebDAV-Client wie Windows auf das Dateisystem auf der SD-Karte wie auf eine Cloud-Festplatte zugreifen und entfernt Befehle wie: replication / Paste / delete Dateien auf der SD-Karte ausführen.  
 
 Wenn Sie eine Flash-Air-SD-Karte für Toshiba verwendet haben, sollten Sie diese Methode verstehen.
 Flash-Air kann jedoch nicht mit dem Router verbunden werden, da es als AP ausgeführt wird und nur ein Gerät damit verbunden werden kann.
@@ -84,23 +84,23 @@ Unser Modul wird jedoch als Client für den Zugriff auf das LAN verwendet, und a
 ### Zusammenfassung
  
 
-Operating Voltage: 3.3V（Via SD Finger ）/5V（Via USB）
-USB to serial chip: CH340E
-Max Current: 600mA
-Size: 49.5mm x 24mm
-Feature
+Betriebsspannung: 3,3 V (über SD-Finger) / 5 V (über USB)  
+USB-zu-Seriell-Chip: CH340E  
+Maximaler Strom: 600 mA  
+Größe: 49,5 mm x 24 mm  
+Feature  
 
-On-board SD card reader (for card reading via USB)
-Onboard USB to serial chip (used for wifi configuration via serial port)
-USB toggle switch (between card reader and serial chip)
-3.3V 600mA LDO (used when WIFI module power supply is plugged in USB)
+Integrierter SD-Kartenleser (zum Kartenlesen über USB)
+Integrierter USB-zu-Seriell-Chip (wird für die WLAN-Konfiguration über die serielle Schnittstelle verwendet)
+USB-Kippschalter (zwischen Kartenleser und seriellem Chip)
+3,3 V 600 mA LDO (wird verwendet, wenn die Stromversorgung des WIFI-Moduls an USB angeschlossen ist)
  
  
-Package Included: 1pcs 
+Lieferumfang: 1 Stück
 
 
-Guarantee
+Garantie
 
-1. 12 months Manufacturer’s limited Warranty for defective items (excluding items damaged and/or misused after receipt). Accessories come with a 3-month warranty.
-2. Defective items MUST BE reported and returned within the warranty period (and in the original packaging, if possible). You must tell us what the defect is and give us your order number. 
-WE DO NOT REPAIR OR REPLACE ITEMS WITH AN EXPIRED WARRANTY.
+1. 12 Monate eingeschränkte Herstellergarantie für defekte Artikel (ausgenommen Artikel, die nach Erhalt beschädigt und/oder zweckentfremdet wurden). Das Zubehör wird mit einer 3-monatigen Garantie geliefert.
+2. Defekte Artikel MÜSSEN innerhalb der Garantiezeit (und wenn möglich in der Originalverpackung) gemeldet und zurückgesendet werden. Sie müssen uns den Mangel mitteilen und uns Ihre Bestellnummer mitteilen.
+WIR REPARIEREN ODER ERSETZEN KEINE ARTIKEL MIT ABGELAUFENER GARANTIE.
