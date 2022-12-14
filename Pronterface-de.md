@@ -80,7 +80,7 @@ Wenn an Ihrem Mac zuvor andere USB-Geräte an denselben physischen Ports angesch
 Vollständige Anweisungen zu Linux-Installationen finden Sie in Printrun2.x [README.md](https://github.com/kliment/Printrun/blob/master/README.md).
 
 Theoretisch sollte jedes Linux-Gerät mit der entsprechenden Python-Installation in der Lage sein, Pronterface auszuführen, obwohl dies vom physischen Build abhängt.
-Es gibt Fallbeispiele für die Installation unter Ubuntu/Debian, Fedora, Chrome OS, Archlinux und sogar [Raspbian](https://all3dp.com/2/noobs-vs-raspbian-difference/) auf einem [Raspberry Pi](https://all3dp.com/2/what-is-a-raspberry-pi/) (für die es ein dediziertes [Instructable] gibt (https://www.instructables.com/How-to-Control-a-3D -Printer-Via-Raspbery-Pi2/), obwohl Sie möglicherweise die Python-Referenzen aktualisieren müssen).
+Es gibt Fallbeispiele für die Installation unter Ubuntu/Debian, Fedora, Chrome OS, Archlinux und sogar [Raspbian](https://all3dp.com/2/noobs-vs-raspbian-difference/) auf einem [Raspberry Pi](https://all3dp.com/2/what-is-a-raspberry-pi/) (für die es ein dediziertes [Instructable](https://www.instructables.com/How-to-Control-a-3D-Printer-Via-Raspbery-Pi2/) gibt, obwohl Sie möglicherweise die Python-Referenzen aktualisieren müssen).
 
 Die Linux-Anweisungen können auch denjenigen helfen, die den Quellcode für die Ausführung auf Windows- oder Mac-Geräten ändern.
 
