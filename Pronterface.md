@@ -48,7 +48,7 @@ This will take you to a GitHub page at the foot of which are links to pre-packag
 ## Installation
 ![](https://i.all3dp.com/workers/images/fit=cover,w=1000,gravity=0.5x0.5,format=auto/wp-content/uploads/2021/12/22121207/latest-pronterface-assets-on-github-github-211222_download-e1640176008641.jpg)
 
-The latest Pronterface assets on GitHub (Source: GitHub)
+The latest Pronterface assets on GitHub (Source: [GitHub](https://github.com/kliment/Printrun/releases/tag/printrun-2.0.0rc8))
 At the time of writing, the version number (for all of the Printrun suite) is  2.0.0rc8.
 
 ### Windows
