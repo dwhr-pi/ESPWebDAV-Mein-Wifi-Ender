@@ -1,13 +1,13 @@
-Pronterface: How to Download, Install & Set It Up - All3DP
+# Pronterface: How to Download, Install & Set It Up - All3DP
 
 Quelle: [Pronterface: How to Download, Install & Set It Up - All3DP](https://all3dp.com/2/pronterface-how-to-download-install-and-set-it-up/ "")
 
 Want more control of your printer? Read along as we download and install Pronterface. You'll be giving immediate commands in no time!
 
 Pronterface is a simple graphical user interface that allows you to monitor and control your printer from a USB-connected computer. 
-With it you can directly move stepper motors, control bed and nozzle temperatures, send (G-code)[https://all3dp.com/topic/G-code/ ""] commands directly via a terminal or console window, and much more.
+With it you can directly move stepper motors, control bed and nozzle temperatures, send [G-code](https://all3dp.com/topic/G-code/ "") commands directly via a terminal or console window, and much more.
 
-Created by the influential (RepRap)[https://reprap.org/wiki/RepRap ""] initiative, Pronterface has been around for a long time, and it’s part of the Printrun suite of simple tools for managing and controlling both 3D printers and CNC machines.
+Created by the influential [RepRap](https://reprap.org/wiki/RepRap "") initiative, Pronterface has been around for a long time, and it’s part of the Printrun suite of simple tools for managing and controlling both 3D printers and CNC machines.
 
 Updated in early 2021, the program runs on Windows, Mac, and Linux machines. 
 Despite a fairly basic-looking design, with the bare minimum in graphics, it’s a very useful tool that retains a strong position in the 3D printing community.
