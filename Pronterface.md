@@ -36,7 +36,7 @@ We’ve set out what you need to know below.
 Click on the highlighted option as seen above to find the latest Pronterface release (Source: [Pronterface](http://www.pronterface.com/#download)) 
 
 
-The best starting point to download Pronterface is the [Pronterface website](http://www.pronterface.com/). 
+The best starting point to download Pronterface is [the Pronterface website](http://www.pronterface.com/). 
 This is actually the home of the entire [PrintRun](https://reprap.org/wiki/Printrun) suite of utilities, which includes Pronterface.
 
 Don’t be distracted by potentially confusing references to previous versions. The most up-to-date software can be found by clicking on the Download tab and then on the “Latest release” link, as seen in the image above.
