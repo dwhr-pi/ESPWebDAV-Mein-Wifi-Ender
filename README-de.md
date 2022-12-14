@@ -102,5 +102,5 @@ Lieferumfang: 1 Stück
 Garantie
 
 1. 12 Monate eingeschränkte Herstellergarantie für defekte Artikel (ausgenommen Artikel, die nach Erhalt beschädigt und/oder zweckentfremdet wurden). Das Zubehör wird mit einer 3-monatigen Garantie geliefert.
-2. Defekte Artikel MÜSSEN innerhalb der Garantiezeit (und wenn möglich in der Originalverpackung) gemeldet und zurückgesendet werden. Sie müssen uns den Mangel mitteilen und uns Ihre Bestellnummer mitteilen.
+2. Defekte Artikel MÜSSEN innerhalb der Garantiezeit (und wenn möglich in der Originalverpackung) gemeldet und zurückgesendet werden. Sie müssen uns den Mangel mitteilen und uns Ihre Bestellnummer mitteilen.  
 WIR REPARIEREN ODER ERSETZEN KEINE ARTIKEL MIT ABGELAUFENER GARANTIE.
