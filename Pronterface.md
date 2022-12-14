@@ -17,9 +17,9 @@ In this article, we’ll take a closer look at what Pronterface is, its uses, an
 
 ## Why Use It?
 
-!()[]
+!()[https://i.all3dp.com/workers/images/fit=cover,w=1000,gravity=0.5x0.5,format=auto/wp-content/uploads/2021/12/22121159/the-pronterface-dashboard-reprap-wiki-211102_download-1.jpg]  
+The Pronterface Dashboard (Source: [RepRap Wiki](https://reprap.org/wiki/Printrun))  
 
-The Pronterface Dashboard (Source: RepRap Wiki)
 Originally designed to control the end-to-end 3D printing workflow, including slicing (using Slic3r), Pronterface tends to fulfil a simpler role today. Yet, despite other software options, including OctoPrint and various “G-code senders”, providing much of the same functionality, Pronterface has several distinct advantages.
 
 In addition to running on multiple computer platforms, it’s simple to install, easy to learn (at least for the basic functionality), can be quickly customized to automate repetitive tasks, and is written in Python, allowing more technical users to make their own modifications.
@@ -30,9 +30,10 @@ We’ve set out what you need to know below.
 
 ## Downloading  
 
-!()[]
+!()[https://i.all3dp.com/workers/images/fit=cover,w=1000,gravity=0.5x0.5,format=auto/wp-content/uploads/2021/12/22121202/click-the-highlighted-option-above-to-find-the-lat-pronterface-211222_download.jpg]  
+Click on the highlighted option as seen above to find the latest Pronterface release (Source: Pronterface) 
 
-Click on the highlighted option as seen above to find the latest Pronterface release (Source: Pronterface)
+
 The best starting point to download Pronterface is the Pronterface website. This is actually the home of the entire PrintRun suite of utilities, which includes Pronterface.
 
 Don’t be distracted by potentially confusing references to previous versions. The most up-to-date software can be found by clicking on the Download tab and then on the “Latest release” link, as seen in the image above.
