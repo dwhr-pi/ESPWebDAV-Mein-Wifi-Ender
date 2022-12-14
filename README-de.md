@@ -88,7 +88,7 @@ Betriebsspannung: 3,3 V (über SD-Finger) / 5 V (über USB)
 USB-zu-Seriell-Chip: CH340E  
 Maximaler Strom: 600 mA  
 Größe: 49,5 mm x 24 mm  
-Feature  
+Ausstattung  
 
 Integrierter SD-Kartenleser (zum Kartenlesen über USB)
 Integrierter USB-zu-Seriell-Chip (wird für die WLAN-Konfiguration über die serielle Schnittstelle verwendet)
