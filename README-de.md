@@ -14,7 +14,7 @@ Der ESP8266-Code vermeidet den Zugriff auf die Micro-SD-Karte, wenn Marlin (Druc
 
 GCode kann direkt vom Slicer (Cura) auf dieses Remote-Laufwerk hochgeladen werden, wodurch der Arbeitsablauf vereinfacht wird.
 
-![Printer Hookup Diagram](PrinterHookup2.jpg)
+![Printer Hookup Diagram](assets/PrinterHookup2.jpg)
 
 ## Abhängigkeiten:  
 1. [ESP8266 Arduino Core version 2.4](https://github.com/esp8266/Arduino)
@@ -119,11 +119,15 @@ Damit das Netzwerklaufwerk künfitig vom Computer auch wieder gefunden wird.
 Schritt: Als wenn dieses Netzwerklaufwerk eine mobile Festplatte ist, braucht man künfitg nur nooch die zu druckenen Dateien in dem Verzeichnis des Netzwerklaufwerkes abzulegen. 
 Also mit dem Slicer bzw. Cura einfach die Dateien an diesem ort apspeichern. 
 Der Drucker sollte kurz vor dem Abspeichern eingeschaltet sein. 
+Nur 11 Zeichen sind bei mir beim Umbennen des Netzwerklaufwerks gestattet. 
 
 Hinweis: Beim einstecken der SD-Karte in den SD-Kartenadapter unbedingt auf den richtigen sitz achten. 
 Eine rote LED beginnt gut 30 sek. später nach dem einstecken an zu blinken. 
 
+Anmerkung: 
+Als problematisch zeigten sich Leerzeichen in den Dateinamen auf der mSD-Karte und auch in der SSID, also keine Leerzeichen im WLan-Netzwerknamen oder WLan-Passwort. 
 
+Sollten Sie die Treiber nicht oder noch nicht auf Ihrem Computer installiert haben, dann können Sie auf des Netzwerklaufwerk weder Dateien hochladen, modifiezeren oder löschen. 
 ![SD-WIFI with Card-Reader Module ESP8266 USB to serial Wireless Transmission NEW](assets/s-l500.jpg)  
 [Ebay: SD-WIFI with Card-Reader Module ESP8266 USB to serial Wireless Transmission NEW](https://www.ebay.de/itm/265689753420?_trkparms=amclksrc%3DITM%26aid%3D777008%26algo%3DPERSONAL.TOPIC%26ao%3D1%26asc%3D20220822113838%26meid%3Dc43b115613e1420491e2ab98faffd084%26pid%3D101524%26rk%3D1%26rkt%3D1%26sd%3D122891034180%26itm%3D265689753420%26pmt%3D0%26noa%3D1%26pg%3D2380057%26algv%3DRecentlyViewedItemsV2%26brand%3DMarkenlos&_trksid=p2380057.c101524.m146925&_trkparms=pageci%3A42190337-7bd1-11ed-94b4-6a2cf1bac2ca%7Cparentrq%3A119783e41850aa702763a77dfff8a302%7Ciid%3A1)  
 Preis: EUR 16,64 (inkl. MwSt.)  
