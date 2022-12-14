@@ -127,7 +127,7 @@ The following are the different parts of Pronterface (as seen above):
 The simple graphical interface makes it easy to control the basic features of a 3D printer, while other tasks require G-code commands to be typed in directly. 
 This is a great way to [learn about G-code](https://all3dp.com/2/easy-g-code-examples-to-begin-with/).
 
-More experienced users may make use of advanced commands supported by whatever firmware their printer runs, such as the [extensive list](https://marlinfw.org/meta/gcode/) supported by [Marlin]().
+More experienced users may make use of advanced commands supported by whatever firmware their printer runs, such as the [extensive list](https://marlinfw.org/meta/gcode/) supported by [Marlin](https://all3dp.com/topic/marlin/).
 
 ## Custom Options 
 A particularly useful feature of Pronterface is the ability to quickly set up custom buttons that can store and automate frequently used G-code tasks. 

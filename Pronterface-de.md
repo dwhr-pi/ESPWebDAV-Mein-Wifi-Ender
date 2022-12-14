@@ -131,22 +131,20 @@ Das Folgende sind die verschiedenen Teile von Pronterface (wie oben zu sehen):
 
 Getting to know the layout (Source: [Wardsci](https://www.wardsci.com/assetsvc/asset/en_US/id/24203892/contents))  
 
-Although Pronterface can open and handle both [STL](https://all3dp.com/1/stl-file-format-3d-printing/) and G-code files, it’s slow compared to a modern slicer and other tools that send G-code commands (such as OctoPrint). 
-These days, therefore, its use is more focused on testing, configuration, calibration, and related tasks.
+## Druckersteuerung und einfache G-Code-Befehle
+Die einfache grafische Benutzeroberfläche erleichtert die Steuerung der Grundfunktionen eines 3D-Druckers, während andere Aufgaben die direkte Eingabe von G-Code-Befehlen erfordern.
+Dies ist eine großartige Möglichkeit, [mehr über G-Code zu erfahren](https://all3dp.com/2/easy-g-code-examples-to-begin-with/).
 
-Although some printers have built-in terminals to allow G-code to be entered and executed directly, Pronterface is usually quicker and easier. 
-Plenty of recent [YouTube videos](https://www.youtube.com/watch?v=T1TH0QpHVWs) on Pronterface tend to focus on this type of usage.
+Erfahrenere Benutzer können erweiterte Befehle verwenden, die von der Firmware unterstützt werden, auf der ihr Drucker ausgeführt wird, z. B. die [umfangreiche Liste](https://marlinfw.org/meta/gcode/), die von [Marlin](https://all3dp.com/topic/marlin/) unterstützt wird.
 
-Layout
-The following are the different parts of Pronterface (as seen above):
+## Benutzerdefinierte Optionen
+Eine besonders nützliche Funktion von Pronterface ist die Möglichkeit, schnell benutzerdefinierte Schaltflächen einzurichten, die häufig verwendete G-Code-Aufgaben speichern und automatisieren können.
+Klicken Sie dazu auf das „+“-Symbol im Bereich für benutzerdefinierte Schaltflächen, geben Sie einen Namen, die G-Code-Befehle und eine Farbe für die Schaltfläche ein.
+(Hinweis: Die Farben werden mit dem [Hex-Standard](https://htmlcolorcodes.com/) angegeben.)
 
-- A: Port Selection
-- B: Control Panel
-- C: Heater Control
-- D Extruder Control
-- E: Custom Button Area
-- F: Command Line
-- G: Command Window
+Diese können zum Extrudieren bestimmter Filamentlängen, zum selektiven Aktivieren und Deaktivieren von Schrittmotoren, zum Ein- und Ausschalten von Software-Endstopps, zum Melden gespeicherter Konfigurationseinstellungen, zum Bewegen zu bestimmten Positionen, zum Ein- und Ausschalten von Peripheriegeräten (z. B. Filamentsensoren) und vielem mehr verwendet werden .
+
+Es sind andere G-Code-Sender verfügbar, aber nur wenige können so universell eingesetzt werden wie Pronterface oder haben das Potenzial, für eine Vielzahl von Anwendungen maßgeschneidert oder modifiziert zu werden wie dieses Programm.
 
 
 ## Printer Control & Simple G-code Commands
