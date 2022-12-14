@@ -59,3 +59,10 @@ If your printer connection isn’t visible or you get a device driver error, the
 By this stage, you should be ready to move onto setup.
 
 ### MacOS
+To install on a Mac, download the “pronterface-macos-app” zip file and unpack it.
+
+By default, the Gatekeeper security feature in MacOS will reject Pronterface, as it hasn’t been explicitly “notarized” for use by Macs. To run it, you’ll need to go to Settings, choose “Security & Privacy”, select the “General” tab, and explicitly allow it to run.
+
+As with Windows machines, recognizing a 3D printer’s USB port can in some cases be problematic. 
+Your printer should show up as “/usbmodem port” or something similar. If not, check that the correct drivers are installed (refer to sources like (FTDI drivers)[https://ftdichip.com/drivers/] to help). 
+If your Mac has had other USB devices plugged into the same physical ports previously, you may also need to reboot. 
