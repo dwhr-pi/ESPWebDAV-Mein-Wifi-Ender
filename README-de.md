@@ -49,17 +49,18 @@ Wenn Sie die Firmware nicht aktualisieren möchten. Sie müssen dies nicht tun. 
 
 - Öffnen Sie das Projekt
   
-   Laden Sie dieses gesamte Projekt herunter und öffnen Sie das Projekt aus dem Verzeichnis `ESPWebDAV-fysetc`mit der Software [arduino](https://www.arduino.cc/). 
+   Laden Sie dieses gesamte Projekt herunter und öffnen Sie das Projekt aus dem Verzeichnis `ESPWebDAV-fysetc` die Datei `ESPWebDAV.ino` mit der Software von [arduino](https://www.arduino.cc/). 
    Ändern Sie die `SETUP.INI` wie nachfolgend beschrieben. 
 
 - Board-Manager-Link hinzufügen
   
    Boardmanager-Link hinzufügen: `https://arduino.esp8266.com/stable/package_esp8266com_index.json` zu File->Preferences Boardmanager, Dokumentation: https://arduino-esp8266.readthedocs.io/en/2.7.1/
+   Dort wo `Zusätzliche Boardverwalter-URLs:` steht.
 
-- Brett auswählen
+- Board auswählen
   
-   Wählen Sie Tools->Boards->Generic ESP8285 Module.
-
+   Wählen Sie Tools->Boards->Alle und geben in die suchleiste `Generic ESP8285 Module` ein und klicken unten auf den installieren-Button.
+	![Ardurino - Generic ESP8285 Module](Ardurino-Generic_ESP8285_Module.png)
 - Klicken Sie auf die Arduino-Kompilierungsschaltfläche
 
 
