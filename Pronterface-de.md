@@ -1,19 +1,3 @@
-# Pronterface: How to Download, Install & Set It Up - All3DP
-
-Quelle: [Pronterface: How to Download, Install & Set It Up - All3DP](https://all3dp.com/2/pronterface-how-to-download-install-and-set-it-up/ "")
-
-Want more control of your printer? Read along as we download and install Pronterface. You'll be giving immediate commands in no time!
-
-Pronterface is a simple graphical user interface that allows you to monitor and control your printer from a USB-connected computer. 
-With it you can directly move stepper motors, control bed and nozzle temperatures, send [G-code](https://all3dp.com/topic/G-code/ "") commands directly via a terminal or console window, and much more.
-
-Created by the influential [RepRap](https://reprap.org/wiki/RepRap "") initiative, Pronterface has been around for a long time, and it’s part of the Printrun suite of simple tools for managing and controlling both 3D printers and CNC machines.
-
-Updated in early 2021, the program runs on Windows, Mac, and Linux machines. 
-Despite a fairly basic-looking design, with the bare minimum in graphics, it’s a very useful tool that retains a strong position in the 3D printing community.
-
-In this article, we’ll take a closer look at what Pronterface is, its uses, and how to install and run it.  
-
 # Pronterface: Herunterladen, Installieren und Einrichten – All3DP
 
 Quelle: [Pronterface: Anleitung zum Herunterladen, Installieren und Einrichten – All3DP](https://all3dp.com/2/pronterface-how-to-download-install-and-set-it-up/ "")
@@ -29,6 +13,22 @@ Das Programm wurde Anfang 2021 aktualisiert und läuft auf Windows-, Mac- und Li
 Trotz eines ziemlich einfach aussehenden Designs mit dem Nötigsten an Grafiken ist es ein sehr nützliches Werkzeug, das eine starke Position in der 3D-Druck-Community behält.
 
 In diesem Artikel werden wir uns genauer ansehen, was Pronterface ist, wie es verwendet wird und wie es installiert und ausgeführt wird.
+
+
+## Warum verwenden?
+
+![](https://i.all3dp.com/workers/images/fit=cover,w=1000,gravity=0.5x0.5,format=auto/wp-content/uploads/2021/12/22121159/the -pronterface-dashboard-reprap-wiki-211102_download-1.jpg)
+Das Pronterface Dashboard (Quelle: [RepRap Wiki](https://reprap.org/wiki/Printrun))
+
+Pronterface wurde ursprünglich entwickelt, um den End-to-End-3D-Druck-Workflow zu steuern, einschließlich Slicing (unter Verwendung von [Slic3r](https://all3dp.com/2/what-is-slic3r-simply-explained/)), und erfüllt tendenziell a heute eine einfachere Rolle.
+Doch trotz anderer Softwareoptionen, einschließlich [OctoPrint](https://all3dp.com/2/octoprint-setup-how-to-install-octopi-on-a-raspberry-pi/) und verschiedener „G-Code-Sender “, bietet Pronterface im Wesentlichen die gleiche Funktionalität, hat aber mehrere deutliche Vorteile.
+
+Es läuft nicht nur auf mehreren Computerplattformen, es ist einfach zu installieren, leicht zu erlernen (zumindest für die Grundfunktionen), kann schnell angepasst werden, um sich wiederholende Aufgaben zu automatisieren, und ist in Python geschrieben, sodass technisch versiertere Benutzer ihre eigenen Änderungen vornehmen können .
+
+Pronterface hat eine [spezielle Website](http://www.pronterface.com/) und einen eigenen Abschnitt im [RepRap-Wiki](https://reprap.org/wiki/Printrun).
+Aufgrund seines langen Erbes und verschiedener Spin-off-Projekte kann das Herunterladen und Installieren dessen, was Sie benötigen, jedoch möglicherweise etwas verwirrend sein.
+
+Wir haben unten aufgeführt, was Sie wissen müssen.
 
 
 ## Why Use It?
