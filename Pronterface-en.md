@@ -111,7 +111,7 @@ These days, therefore, its use is more focused on testing, configuration, calibr
 Although some printers have built-in terminals to allow G-code to be entered and executed directly, Pronterface is usually quicker and easier. 
 Plenty of recent [YouTube videos](https://www.youtube.com/watch?v=T1TH0QpHVWs) on Pronterface tend to focus on this type of usage.
 
-Layout
+### Layout
 The following are the different parts of Pronterface (as seen above):
 
 - A: Port Selection

@@ -92,28 +92,43 @@ In allen Fällen benötigen Sie natürlich auch die neueste Version von Python v
 ![](https://i.all3dp.com/workers/images/fit=cover,w=1000,gravity=0.5x0.5,format=auto/wp-content/uploads/2021/12/22121214/part-of-the-pronterface-setup-menus-ken-douglas-via-all3dp-211102_download-e1640175810953.jpg)  
 Teil des Pronterface-Einstellungsmenüs (Quelle: Ken Douglas via All3DP)  
 
-In dieser Phase müssen einige Einrichtungs- und Konfigurationsaufgaben ausgeführt werden. Wählen Sie zunächst den Anschluss aus, an dem der Drucker angeschlossen ist. Unter Windows ist dies so etwas wie COM8, während es auf einem Mac typischerweise eine Variante von „/usbmodem“ oder „/tty“ ist. Wenn diese nicht vorhanden sind, lesen Sie die Punkte zu USB-Treibern und Anschlüssen im Abschnitt oben.
+In dieser Phase müssen einige Einrichtungs- und Konfigurationsaufgaben ausgeführt werden. Wählen Sie zunächst den Anschluss aus, an dem der Drucker angeschlossen ist. 
+Unter Windows ist dies so etwas wie COM8, während es auf einem Mac typischerweise eine Variante von „/usbmodem“ oder „/tty“ ist. Wenn diese nicht vorhanden sind, lesen Sie die Punkte zu USB-Treibern und Anschlüssen im Abschnitt oben.
 
-Als nächstes überprüfen Sie die Kommunikationsgeschwindigkeit. Der Standardwert von 115200 ist normalerweise der beste, kann aber je nach Drucker variieren.
+Als nächstes überprüfen Sie die Kommunikationsgeschwindigkeit. 
+Der Standardwert von 115200 ist normalerweise der beste, kann aber je nach Drucker variieren.
 
-In diesem Stadium können Sie auf Verbinden klicken und eine Meldung sehen, die bestätigt, dass Pronterface und Ihr 3D-Drucker kommunizieren. Sie können dann die grundlegenden Steuerelemente verwenden und auch G-Code-Befehle über das Terminal senden. (Siehe Abschnitt unten.)
+In diesem Stadium können Sie auf Verbinden klicken und eine Meldung sehen, die bestätigt, dass Pronterface und Ihr 3D-Drucker kommunizieren.
+ Sie können dann die grundlegenden Steuerelemente verwenden und auch G-Code-Befehle über das Terminal senden. (Siehe Abschnitt unten.)
 
-Abhängig von den Aufgaben, die Sie im Sinn haben, müssen Sie Pronterface möglicherweise weiter konfigurieren, damit es mehr über Ihren Drucker weiß. Wählen Sie dazu die Menüoption „Einstellungen“ und dann „Optionen“ aus der Dropdown-Liste. Dadurch wird ein Menüfenster mit mehreren Registerkarten für Druckereinstellungen, Benutzeroberfläche und mehr angezeigt. In 90 % der Fälle müssen diese nicht geändert werden.
+Abhängig von den Aufgaben, die Sie im Sinn haben, müssen Sie Pronterface möglicherweise weiter konfigurieren, damit es mehr über Ihren Drucker weiß. 
+Wählen Sie dazu die Menüoption „Einstellungen“ und dann „Optionen“ aus der Dropdown-Liste. Dadurch wird ein Menüfenster mit mehreren Registerkarten für Druckereinstellungen, Benutzeroberfläche und mehr angezeigt. 
+In 90 % der Fälle müssen diese nicht geändert werden.
 
-
-Part of the Pronterface Settings menu (Source: Ken Douglas via All3DP)  
-
-There are a few setup and configuration tasks to complete at this stage. First, select the port to which the printer is connected. On Windows, this will be something like COM8, while on a Mac, it will typically be a variant of “/usbmodem” or “/tty”. If these are not present, refer to the points about USB drivers and connections in the section above.
-
-Next check the communications speed. The default of 115200 is usually the best, but may vary according to your printer.
-
-At this stage, you can click connect and see a message confirming that Pronterface and your 3D printer are communicating. You will then be able to use the basic controls and also send G-code commands via the terminal. (See the section below.)
-
-Depending on the tasks you have in mind, you may need to further configure Pronterface so that it knows more about your printer. Do this by selecting the “Settings” menu option and then “Options” from the dropdown list. This will present a menu window with several tabs covering Printer settings, User interface, and more. 90% of the time, these do not need to altered.  
 
 ## Operation
 
 ![](https://i.all3dp.com/workers/images/fit=cover,w=1000,gravity=0.5x0.5,format=auto/wp-content/uploads/2021/12/22121217/getting-to-know-the-layout-wardsci-211102_download.jpg)
+Layout kennenlernen (Quelle: [Wardsci](https://www.wardsci.com/assetsvc/asset/en_US/id/24203892/contents))
+
+Obwohl Pronterface sowohl [STL](https://all3dp.com/1/stl-file-format-3d-printing/) als auch G-Code-Dateien öffnen und verarbeiten kann, ist es langsam im Vergleich zu einem modernen Slicer und anderen sendenden Tools G-Code-Befehle (wie OctoPrint).
+Heutzutage konzentriert sich seine Verwendung daher mehr auf das Testen, Konfigurieren, Kalibrieren und verwandte Aufgaben.
+
+Obwohl einige Drucker über eingebaute Terminals verfügen, über die G-Code direkt eingegeben und ausgeführt werden kann, ist Pronterface normalerweise schneller und einfacher.
+Viele neuere [YouTube-Videos](https://www.youtube.com/watch?v=T1TH0QpHVWs) zu Pronterface konzentrieren sich in der Regel auf diese Art der Nutzung.
+
+### Layout  
+Das Folgende sind die verschiedenen Teile von Pronterface (wie oben zu sehen):
+
+- A: Anschlussauswahl
+- B: Bedienfeld
+- C: Heizungssteuerung
+- D Extrudersteuerung
+- E: Benutzerdefinierter Schaltflächenbereich
+- F: Befehlszeile
+- G: Befehlsfenster
+
+
 Getting to know the layout (Source: [Wardsci](https://www.wardsci.com/assetsvc/asset/en_US/id/24203892/contents))  
 
 Although Pronterface can open and handle both [STL](https://all3dp.com/1/stl-file-format-3d-printing/) and G-code files, it’s slow compared to a modern slicer and other tools that send G-code commands (such as OctoPrint). 
