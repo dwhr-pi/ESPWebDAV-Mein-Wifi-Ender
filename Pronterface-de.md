@@ -87,20 +87,20 @@ Die Linux-Anweisungen können auch denjenigen helfen, die den Quellcode für die
 In allen Fällen benötigen Sie natürlich auch die neueste Version von Python vorinstalliert.
 
 
-
-Full instructions on Linux installs are provided in the Printrun2.x [README.md](https://github.com/kliment/Printrun/blob/master/README.md).
-
-In theory, any Linux device with the appropriate Python installation should be able to run Pronterface, although this will depend on the physical build. 
-There are case examples for installation on Ubuntu/Debian, Fedora, Chrome OS, Archlinux, and even [Raspbian](https://all3dp.com/2/noobs-vs-raspbian-difference/) on a [Raspberry Pi](https://all3dp.com/2/what-is-a-raspberry-pi/) (for which there’s a dedicated [Instructable](https://www.instructables.com/How-to-Control-a-3D-Printer-Via-Raspbery-Pi2/), although you may need to update the Python references).
-
-The Linux instructions may also help those modifying the source code to run on Windows or Mac devices.
-
-In all cases, obviously, you’ll need the latest version of Python pre-installed, too. 
-
-
 ## Setup
 
 ![](https://i.all3dp.com/workers/images/fit=cover,w=1000,gravity=0.5x0.5,format=auto/wp-content/uploads/2021/12/22121214/part-of-the-pronterface-setup-menus-ken-douglas-via-all3dp-211102_download-e1640175810953.jpg)  
+Teil des Pronterface-Einstellungsmenüs (Quelle: Ken Douglas via All3DP)  
+
+In dieser Phase müssen einige Einrichtungs- und Konfigurationsaufgaben ausgeführt werden. Wählen Sie zunächst den Anschluss aus, an dem der Drucker angeschlossen ist. Unter Windows ist dies so etwas wie COM8, während es auf einem Mac typischerweise eine Variante von „/usbmodem“ oder „/tty“ ist. Wenn diese nicht vorhanden sind, lesen Sie die Punkte zu USB-Treibern und Anschlüssen im Abschnitt oben.
+
+Als nächstes überprüfen Sie die Kommunikationsgeschwindigkeit. Der Standardwert von 115200 ist normalerweise der beste, kann aber je nach Drucker variieren.
+
+In diesem Stadium können Sie auf Verbinden klicken und eine Meldung sehen, die bestätigt, dass Pronterface und Ihr 3D-Drucker kommunizieren. Sie können dann die grundlegenden Steuerelemente verwenden und auch G-Code-Befehle über das Terminal senden. (Siehe Abschnitt unten.)
+
+Abhängig von den Aufgaben, die Sie im Sinn haben, müssen Sie Pronterface möglicherweise weiter konfigurieren, damit es mehr über Ihren Drucker weiß. Wählen Sie dazu die Menüoption „Einstellungen“ und dann „Optionen“ aus der Dropdown-Liste. Dadurch wird ein Menüfenster mit mehreren Registerkarten für Druckereinstellungen, Benutzeroberfläche und mehr angezeigt. In 90 % der Fälle müssen diese nicht geändert werden.
+
+
 Part of the Pronterface Settings menu (Source: Ken Douglas via All3DP)  
 
 There are a few setup and configuration tasks to complete at this stage. First, select the port to which the printer is connected. On Windows, this will be something like COM8, while on a Mac, it will typically be a variant of “/usbmodem” or “/tty”. If these are not present, refer to the points about USB drivers and connections in the section above.
