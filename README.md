@@ -48,10 +48,9 @@ LCD Schematics - [http://reprap.org/mediawiki/images/7/79/LCD_connect_SCHDOC.pdf
 
 ## Das Video ist auf Youtube
 [YouTube: SD Card + ESP8266 = OctoPrint Alternative?](https://www.youtube.com/watch?v=nHNZPRl8gzA&t=620s) bei 5:54 beschreibt `Thomas Sanladerer` das WiFi-Setup. 
-Er verwendet dazu: 
-[FYSETC/ESPWebDAV](https://github.com/FYSETC/ESPWebDAV) und dies stellt einen Clone vom Original [ardyesp/ESPWebDAV](https://github.com/ardyesp/ESPWebDAV) da.
+Er verwendet dazu: [FYSETC/ESPWebDAV](https://github.com/FYSETC/ESPWebDAV) und dies stellt einen Clone vom Original [ardyesp/ESPWebDAV](https://github.com/ardyesp/ESPWebDAV) da.
 
-Er verwendet (Pronterface)[https://www.google.com/search?q=pronterface+download&oq=Pronterface&aqs=chrome.1.69i57j0i512l9.3406j0j7&sourceid=chrome&ie=UTF-8] und dies ist eine (Pronterface: Printrun: Pure Python 3d printing host software)[https://www.pronterface.com/]
+Ab 6:20 min. beschreibt er, das er dazu (Pronterface)[https://www.google.com/search?q=pronterface+download&oq=Pronterface&aqs=chrome.1.69i57j0i512l9.3406j0j7&sourceid=chrome&ie=UTF-8] und dies ist eine (Pronterface: Printrun: Pure Python 3d printing host software)[https://www.pronterface.com/] verwendet.
 
 
 ![SD-WIFI with Card-Reader Module ESP8266 USB to serial Wireless Transmission NEW](assets/s-l500.jpg)
