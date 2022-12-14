@@ -146,22 +146,3 @@ Diese können zum Extrudieren bestimmter Filamentlängen, zum selektiven Aktivie
 
 Es sind andere G-Code-Sender verfügbar, aber nur wenige können so universell eingesetzt werden wie Pronterface oder haben das Potenzial, für eine Vielzahl von Anwendungen maßgeschneidert oder modifiziert zu werden wie dieses Programm.
 
-
-## Printer Control & Simple G-code Commands
-The simple graphical interface makes it easy to control the basic features of a 3D printer, while other tasks require G-code commands to be typed in directly. 
-This is a great way to [learn about G-code](https://all3dp.com/2/easy-g-code-examples-to-begin-with/).
-
-More experienced users may make use of advanced commands supported by whatever firmware their printer runs, such as the [extensive list](https://marlinfw.org/meta/gcode/) supported by [Marlin]().
-
-## Custom Options 
-A particularly useful feature of Pronterface is the ability to quickly set up custom buttons that can store and automate frequently used G-code tasks. 
-To do this, click the “+” icon in the Custom Button Area, enter a name, the G-code commands, and specify a color for the button. 
-(Hint: the colors are specified using the [hex standard](https://htmlcolorcodes.com/).)
-
-These can be used for extruding specific lengths of filament, selectively enabling and disabling stepper motors, switching software endstops on and off, reporting saved configuration settings, moving to specified positions, switching peripherals (such as filament sensors) on and off, and much more.
-
-There are other G-code senders available, but few can be as universally deployed as Pronterface or have the potential to be tailored or modified for a variety of applications as this program.
-
-![]()
-
-![]()
