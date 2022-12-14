@@ -53,7 +53,7 @@ Er verwendet dazu: [FYSETC/ESPWebDAV](https://github.com/FYSETC/ESPWebDAV "") un
 
 
 Ab 6:20 min. beschreibt er, das er dazu [Pronterface](https://www.google.com/search?q=pronterface+download&oq=Pronterface&aqs=chrome.1.69i57j0i512l9.3406j0j7&sourceid=chrome&ie=UTF-8 "") und dies ist eine [Pronterface: Printrun: Pure Python 3d printing host software](https://www.pronterface.com/ "") verwendet. 
-Für Pronteface gibt es eine weitere Beschreibung [Pronterface: How to Download, Install & Set It Up - All3DP](https://all3dp.com/2/pronterface-how-to-download-install-and-set-it-up/ "").
+Für Pronterface gibt es eine weitere Beschreibung [Pronterface: How to Download, Install & Set It Up - All3DP](https://all3dp.com/2/pronterface-how-to-download-install-and-set-it-up/ "").
 
 
 ![SD-WIFI with Card-Reader Module ESP8266 USB to serial Wireless Transmission NEW](assets/s-l500.jpg)  
@@ -81,11 +81,11 @@ However, our module is used as a client to access the LAN, and all devices in th
 ### Summary
  
 
-Operating Voltage: 3.3V（Via SD Finger ）/5V（Via USB）
-USB to serial chip: CH340E
-Max Current: 600mA
-Size: 49.5mm x 24mm
-Feature
+Operating Voltage: 3.3V（Via SD Finger ）/5V（Via USB）  
+USB to serial chip: CH340E  
+Max Current: 600mA  
+Size: 49.5mm x 24mm  
+Feature  
 
 On-board SD card reader (for card reading via USB)
 Onboard USB to serial chip (used for wifi configuration via serial port)
@@ -96,8 +96,8 @@ USB toggle switch (between card reader and serial chip)
 Package Included: 1pcs 
 
 
-Guarantee
+### Guarantee
 
 1. 12 months Manufacturer’s limited Warranty for defective items (excluding items damaged and/or misused after receipt). Accessories come with a 3-month warranty.
-2. Defective items MUST BE reported and returned within the warranty period (and in the original packaging, if possible). You must tell us what the defect is and give us your order number. 
+2. Defective items MUST BE reported and returned within the warranty period (and in the original packaging, if possible). You must tell us what the defect is and give us your order number.  
 WE DO NOT REPAIR OR REPLACE ITEMS WITH AN EXPIRED WARRANTY.
