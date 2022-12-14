@@ -131,7 +131,8 @@ More experienced users may make use of advanced commands supported by whatever f
 
 ## Custom Options 
 A particularly useful feature of Pronterface is the ability to quickly set up custom buttons that can store and automate frequently used G-code tasks. 
-To do this, click the “+” icon in the Custom Button Area, enter a name, the G-code commands, and specify a color for the button. (Hint: the colors are specified using the hex standard.)
+To do this, click the “+” icon in the Custom Button Area, enter a name, the G-code commands, and specify a color for the button. 
+(Hint: the colors are specified using the [hex standard](https://htmlcolorcodes.com/).)
 
 These can be used for extruding specific lengths of filament, selectively enabling and disabling stepper motors, switching software endstops on and off, reporting saved configuration settings, moving to specified positions, switching peripherals (such as filament sensors) on and off, and much more.
 
