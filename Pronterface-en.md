@@ -138,6 +138,3 @@ These can be used for extruding specific lengths of filament, selectively enabli
 
 There are other G-code senders available, but few can be as universally deployed as Pronterface or have the potential to be tailored or modified for a variety of applications as this program.
 
-![]()
-
-![]()
