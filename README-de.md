@@ -34,11 +34,11 @@ GPIO14|SCK
 GPIO4|CS   
 GPIO5|CS Sense   
 
-The card should be formatted for Fat16 or Fat32
+Die Karte sollte für Fat16 oder Fat32 formatiert sein.  
 
-To access the drive from Windows, type ```\\esp_hostname_or_ip\DavWWWRoot``` at the Run prompt, or use Map Network Drive menu in Windows Explorer.
+Um von Windows aus auf das Laufwerk zuzugreifen, geben Sie  in der Eingabeaufforderung „Ausführen“ ```\\esp_hostname_or_ip\DavWWWRoot``` ein oder verwenden Sie das Menü „Netzlaufwerk verbinden“ im Windows Explorer.
 
-## References
+## Verweise
 Marlin Firmware - [http://marlinfw.org/](http://marlinfw.org/)   
 
 Cura Slicer - [https://ultimaker.com/en/products/ultimaker-cura-software](https://ultimaker.com/en/products/ultimaker-cura-software)   
@@ -71,14 +71,14 @@ Preis: EUR 16,79 (inkl. MwSt.)
 
 ### Introduction
 
-The SD-WIFI is a module that can run ESPwebDev（https://github.com/ardyesp/ESPWebDAV）. 
-We made it into the shape of an SD card so it can be directly inserted into an existing SD card slot and powered. 
-You can connect it to the router using the serial command we provided, and then write down the returned IP address. 
-Then, a WebDAV client like Windows can access the file system on the SD card like a cloud disk and allow remote replication / Paste / delete files on SD card. 
-If you have used Flash-Air SD card for Toshiba, you should understand this method. 
-But Flash-Air cannot be connected to the router because it is running as an AP, and only one device can be connected to it. 
-For example, if your computer is connected to it, you can no longer connect to the Internet at the same time. 
-However, our module is used as a client to access the LAN, and all devices in the network can access it without affecting the original connection.
+Das SD-WIFI ist ein Modul, das ESPwebDev （https://github.com/ardyesp/ESPWebDAV） ausführen kann. 
+Wir haben es in Form einer SD-Karte gestaltet, sodass es direkt in einen vorhandenen SD-Kartensteckplatz eingesetzt und mit Strom versorgt werden kann.
+Sie können es mit dem von uns bereitgestellten seriellen Befehl mit dem Router verbinden und dann die zurückgegebene IP-Adresse notieren.
+Dann kann ein WebDAV-Client wie Windows auf das Dateisystem auf der SD-Karte wie auf eine Cloud-Festplatte zugreifen und remote replication / Paste / delete Dateien auf SD-Karte zulässt. 
+Wenn Sie eine Flash-Air-SD-Karte für Toshiba verwendet haben, sollten Sie diese Methode verstehen.
+Flash-Air kann jedoch nicht mit dem Router verbunden werden, da es als AP ausgeführt wird und nur ein Gerät damit verbunden werden kann.
+Wenn beispielsweise Ihr Computer damit verbunden ist, können Sie sich nicht mehr gleichzeitig mit dem Internet verbinden.
+Unser Modul wird jedoch als Client für den Zugriff auf das LAN verwendet, und alle Geräte im Netzwerk können darauf zugreifen, ohne die ursprüngliche Verbindung zu beeinträchtigen.  
  
 ### Summary
  
