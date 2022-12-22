@@ -26,7 +26,8 @@ GCode kann direkt vom Slicer (Cura) auf dieses Remote-Laufwerk hochgeladen werde
   
 
 ## Verwendung  :
-Kompilieren Sie das Programm und laden Sie es in ein ESP8266-Modul hoch. ESP12-E wurde für Entwicklung und Tests verwendet.
+Kompilieren Sie das Programm und laden Sie es in ein ESP8266-Modul hoch. 
+ESP12-E wurde für Entwicklung und Tests verwendet.
 Verbinden Sie die SPI-Busleitungen mit der SD-Karte.  
 
 
@@ -42,14 +43,16 @@ Die Karte sollte für Fat16 oder Fat32 formatiert sein.
 
 Um von Windows aus auf das Laufwerk zuzugreifen, geben Sie  in der Eingabeaufforderung „Ausführen“ ```\\esp_hostname_or_ip\DavWWWRoot``` ein oder verwenden Sie das Menü „Netzlaufwerk verbinden“ im Windows Explorer.
 
-Der esp_hostname lautet: http://fysetc/DavWWWRoot
+Der original Name des esp_hostname lautet: http://fysetc/DavWWWRoot
 
 
 ### Kompilieren und hochladen
 
 #### Kompilieren
 
-Wenn Sie die Firmware nicht aktualisieren möchten. Sie müssen dies nicht tun. Kompilieren Sie das Programm und laden Sie es in ein ESP8266-Modul hoch.
+Wenn Sie die Firmware nicht aktualisieren möchten. 
+Sie müssen dies nicht tun.
+ Kompilieren Sie das Programm und laden Sie es in ein ESP8266-Modul hoch.
 
 - Öffnen Sie das Projekt
   
