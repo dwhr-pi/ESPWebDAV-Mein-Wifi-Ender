@@ -51,8 +51,8 @@ Der original Name des esp_hostname lautet: http://fysetc/DavWWWRoot
 #### Kompilieren
 
 Wenn Sie die Firmware nicht aktualisieren möchten. 
-Sie müssen dies nicht tun.
- Kompilieren Sie das Programm und laden Sie es in ein ESP8266-Modul hoch.
+Sie müssen dies nicht tun. 
+Kompilieren Sie das Programm und laden Sie es in ein ESP8266-Modul hoch.
 
 - Öffnen Sie das Projekt
   
@@ -74,6 +74,9 @@ Sie müssen dies nicht tun.
 missing file error "cannot find ESPWebDAV.h", even though it is in the compiling folder.
 The version of esp8266 in the board manager needs to be 2.4. And clean up your output folder. 
 
+fehlender Dateifehler "kann ESPWebDAV.h nicht finden", obwohl es sich im Kompilierungsordner befindet. 
+Die Version von esp8266 im Boardmanager muss 2.4 sein. 
+Und bereinigen Sie Ihren Ausgabeordner.
 
 #### Hochladen
 
@@ -92,7 +95,8 @@ Zuerst können Sie unser Video [hier](https://www.youtube.com/watch?v=YAFAK-jPcO
 
 #### Option 1: INI-Datei
 
-Sie können die Beispieldatei ```SETUP.INI``` im Ordner ```ini``` bearbeiten, den SSID- und PASSWORD-Wert ändern. Kopieren Sie dann die Datei „SETUP.INI“ auf Ihre Root-SD-Karte. Stecken Sie es dann in das Modul.
+Sie können die Beispieldatei ```SETUP.INI``` im Ordner ```ini``` bearbeiten, den SSID- und PASSWORD-Wert ändern. 
+Kopieren Sie dann die Datei „SETUP.INI“ auf Ihre Root-SD-Karte. Stecken Sie es dann in das Modul.
 
 1. Drehen Sie den Optionsschalter des Moduls auf ```USB2UART```
 2. Öffnen Sie eine COM-Software auf Ihrem Computer
