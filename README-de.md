@@ -63,6 +63,9 @@ Wenn Sie die Firmware nicht aktualisieren möchten. Sie müssen dies nicht tun. 
 	![Ardurino - Generic ESP8285 Module](assets/Ardurino-Generic_ESP8285_Module.png)
 - Klicken Sie auf die Arduino-Kompilierungsschaltfläche
 
+## Kompilerfehler
+missing file error "cannot find ESPWebDAV.h", even though it is in the compiling folder.
+The version of esp8266 in the board manager needs to be 2.4. And clean up your output folder. 
 
 
 #### Hochladen
