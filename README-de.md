@@ -1,5 +1,8 @@
 ## WebDAV-Server und ein 3D-Drucker
-Dieses Projekt ist ein WiFi-WebDAV-Server mit ESP8266 SoC. Es verwaltet das Dateisystem auf einer SD-Karte.
+
+[SD Card + ESP8266 = OctoPrint Alternative?](https://www.youtube.com/watch?v=nHNZPRl8gzA&t=566s "")  
+Dieses Projekt ist ein WiFi-WebDAV-Server mit ESP8266 SoC. 
+Es verwaltet das Dateisystem auf einer SD-Karte.
 
 Unterstützt die grundlegenden WebDav-Operationen - *PROPFIND*, *GET*, *PUT*, *DELETE*, *MKCOL*, *MOVE* usw.
 
@@ -8,7 +11,8 @@ Das Laufwerk kann auch wie ein Netzwerklaufwerk gemountet werden und ermöglicht
 
 ### 3D Drucker
 
-Ich verwende dieses Setup als Netzwerklaufwerk für 3D-Drucker mit Marlin. Die folgende Schaltung mit ESP8266 und einem MicroSD-Adapter wird auf einer Leiterplatte hergestellt.
+Ich verwende dieses Setup als Netzwerklaufwerk für 3D-Drucker mit Marlin. 
+Die folgende Schaltung mit ESP8266 und einem MicroSD-Adapter wird auf einer Leiterplatte hergestellt.
 Ein SD-Kartenadapter in voller Größe wird an ein Ende geklebt und bietet Zugriff auf alle SPI-Datenleitungen vom Drucker. 
 Der ESP8266-Code vermeidet den Zugriff auf die Micro-SD-Karte, wenn Marlin (Drucker-Firmware) darauf liest/schreibt (erkannt über die Chip-Select-Leitung).  
 
