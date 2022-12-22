@@ -2,7 +2,9 @@
 
 Quelle: [Pronterface: Anleitung zum Herunterladen, Installieren und Einrichten – All3DP](https://all3dp.com/2/pronterface-how-to-download-install-and-set-it-up/ "")
 
-Möchten Sie mehr Kontrolle über Ihren Drucker? Lesen Sie mit, während wir Pronterface herunterladen und installieren. Sie werden in kürzester Zeit sofortige Befehle erteilen!
+Möchten Sie mehr Kontrolle über Ihren Drucker? 
+Lesen Sie mit, während wir Pronterface herunterladen und installieren. 
+Sie werden in kürzester Zeit sofortige Befehle erteilen!
 
 Pronterface ist eine einfache grafische Benutzeroberfläche, mit der Sie Ihren Drucker von einem über USB angeschlossenen Computer aus überwachen und steuern können.
 Damit können Sie Schrittmotoren direkt bewegen, Bett- und Düsentemperaturen steuern, [G-Code](https://all3dp.com/topic/G-code/ "") Befehle direkt über ein Terminal- oder Konsolenfenster senden und vieles mehr mehr.
@@ -20,7 +22,7 @@ In diesem Artikel werden wir uns genauer ansehen, was Pronterface ist, wie es ve
 ![](https://i.all3dp.com/workers/images/fit=cover,w=1000,gravity=0.5x0.5,format=auto/wp-content/uploads/2021/12/22121159/the-pronterface-dashboard-reprap-wiki-211102_download-1.jpg)  
 Das Pronterface Dashboard (Quelle: [RepRap Wiki](https://reprap.org/wiki/Printrun))  
 
-Pronterface wurde ursprünglich entwickelt, um den End-to-End-3D-Druck-Workflow zu steuern, einschließlich Slicing (unter Verwendung von [Slic3r](https://all3dp.com/2/what-is-slic3r-simply-explained/)), und erfüllt tendenziell a heute eine einfachere Rolle.
+Pronterface wurde ursprünglich entwickelt, um den End-to-End-3D-Druck-Workflow zu steuern, einschließlich Slicing (unter Verwendung von [Slic3r](https://all3dp.com/2/what-is-slic3r-simply-explained/)), und erfüllt tendenziell heute eine einfachere Rolle. 
 Doch trotz anderer Softwareoptionen, einschließlich [OctoPrint](https://all3dp.com/2/octoprint-setup-how-to-install-octopi-on-a-raspberry-pi/) und verschiedener "G-Code-Sender", bietet Pronterface im Wesentlichen die gleiche Funktionalität, hat aber mehrere deutliche Vorteile.
 
 Es läuft nicht nur auf mehreren Computerplattformen, es ist einfach zu installieren, leicht zu erlernen (zumindest für die Grundfunktionen), kann schnell angepasst werden, um sich wiederholende Aufgaben zu automatisieren, und ist in Python geschrieben, sodass technisch versiertere Benutzer ihre eigenen Änderungen vornehmen können. 

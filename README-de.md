@@ -71,12 +71,24 @@ Kompilieren Sie das Programm und laden Sie es in ein ESP8266-Modul hoch.
 - Klicken Sie auf die Arduino-Kompilierungsschaltfläche
 
 ## Kompilerfehler
-missing file error "cannot find ESPWebDAV.h", even though it is in the compiling folder.
-The version of esp8266 in the board manager needs to be 2.4. And clean up your output folder. 
+missing file error "cannot find ESPWebDAV.h", even though it is in the compiling folder.  
+The version of esp8266 in the board manager needs to be 2.4. 
+And clean up your output folder.   
 
-fehlender Dateifehler "kann ESPWebDAV.h nicht finden", obwohl es sich im Kompilierungsordner befindet. 
+fehlender Dateifehler "kann ESPWebDAV.h nicht finden", obwohl es sich im Kompilierungsordner befindet.  
 Die Version von esp8266 im Boardmanager muss 2.4 sein. 
-Und bereinigen Sie Ihren Ausgabeordner.
+Und bereinigen Sie Ihren Ausgabeordner. 
+
+Compilation error: ESPWebDAV.h: No such file or directory  
+Kompilierungsfehler: ESPWebDAV.h: Keine solche Datei oder Verzeichnis. 
+https://www.facebook.com/groups/197476557529090/posts/619035958706479/
+https://github.com/Aircoookie/Espalexa/issues/40
+[2 Easy fixes to Arduino error: “.h: No such file or directory"](https://www.youtube.com/watch?v=igdBT0hwsJc)
+
+
+Weitere Fehlermeldungen auf: 
+https://github.com/ardyesp/ESPWebDAV/issues
+
 
 #### Hochladen
 
