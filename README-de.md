@@ -10,7 +10,7 @@ https://github.com/ardyesp/ESPWebDAV
 
 
 [SD Card + ESP8266 = OctoPrint Alternative?](https://www.youtube.com/watch?v=nHNZPRl8gzA&t=566s "SD Card + ESP8266 = OctoPrint Alternative?")  
-https://www.fysetc.com/collections/other-modules/products/fysetc-sd-wifi-with-card-reader-module-run-espwebdev-onboard-usb-to-serial-chip-wireless-transmission-module-for-s6-f6-turbo?variant=37578391027887
+[Kaufen: FYSETC SD Wifi Wireless Transmission Module + ESP8266](https://www.fysetc.com/collections/other-modules/products/fysetc-sd-wifi-with-card-reader-module-run-espwebdev-onboard-usb-to-serial-chip-wireless-transmission-module-for-s6-f6-turbo?variant=37578391027887)
 
 Dieses Projekt ist ein WiFi-WebDAV-Server mit ESP8266 SoC. 
 Es verwaltet das Dateisystem auf einer SD-Karte.
