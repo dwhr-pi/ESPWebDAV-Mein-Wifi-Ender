@@ -1,5 +1,19 @@
 ## WebDAV-Server und ein 3D-Drucker
-Dieses Projekt ist ein WiFi-WebDAV-Server mit ESP8266 SoC. Es verwaltet das Dateisystem auf einer SD-Karte.
+
+[fysetc sd-wifi setup](https://www.youtube.com/results?search_query=fysetc+sd-wifi+setup+ "fysetc sd-wifi setup")  
+
+[FYSETC SD Wifi Wireless Transmission Module Introduction](https://www.youtube.com/watch?v=2aW-65--NJk "FYSETC SD Wifi Wireless Transmission Module Introduction")  
+https://github.com/ardyesp/ESPWebDAV
+
+[Andere Version Pronterface für Windows 10: sscom5.12.1.exe, sscom51.ini](https://github.com/FYSETC/sscom "original Download von Fysetc")
+[Anleitung zu sscom](http://www.sscom.vip/)
+
+
+[SD Card + ESP8266 = OctoPrint Alternative?](https://www.youtube.com/watch?v=nHNZPRl8gzA&t=566s "SD Card + ESP8266 = OctoPrint Alternative?")  
+https://www.fysetc.com/collections/other-modules/products/fysetc-sd-wifi-with-card-reader-module-run-espwebdev-onboard-usb-to-serial-chip-wireless-transmission-module-for-s6-f6-turbo?variant=37578391027887
+
+Dieses Projekt ist ein WiFi-WebDAV-Server mit ESP8266 SoC. 
+Es verwaltet das Dateisystem auf einer SD-Karte.
 
 Unterstützt die grundlegenden WebDav-Operationen - *PROPFIND*, *GET*, *PUT*, *DELETE*, *MKCOL*, *MOVE* usw.
 
@@ -8,7 +22,8 @@ Das Laufwerk kann auch wie ein Netzwerklaufwerk gemountet werden und ermöglicht
 
 ### 3D Drucker
 
-Ich verwende dieses Setup als Netzwerklaufwerk für 3D-Drucker mit Marlin. Die folgende Schaltung mit ESP8266 und einem MicroSD-Adapter wird auf einer Leiterplatte hergestellt.
+Ich verwende dieses Setup als Netzwerklaufwerk für 3D-Drucker mit Marlin. 
+Die folgende Schaltung mit ESP8266 und einem MicroSD-Adapter wird auf einer Leiterplatte hergestellt.
 Ein SD-Kartenadapter in voller Größe wird an ein Ende geklebt und bietet Zugriff auf alle SPI-Datenleitungen vom Drucker. 
 Der ESP8266-Code vermeidet den Zugriff auf die Micro-SD-Karte, wenn Marlin (Drucker-Firmware) darauf liest/schreibt (erkannt über die Chip-Select-Leitung).  
 
@@ -22,7 +37,8 @@ GCode kann direkt vom Slicer (Cura) auf dieses Remote-Laufwerk hochgeladen werde
   
 
 ## Verwendung  :
-Kompilieren Sie das Programm und laden Sie es in ein ESP8266-Modul hoch. ESP12-E wurde für Entwicklung und Tests verwendet.
+Kompilieren Sie das Programm und laden Sie es in ein ESP8266-Modul hoch. 
+ESP12-E wurde für Entwicklung und Tests verwendet.
 Verbinden Sie die SPI-Busleitungen mit der SD-Karte.  
 
 
@@ -38,30 +54,77 @@ Die Karte sollte für Fat16 oder Fat32 formatiert sein.
 
 Um von Windows aus auf das Laufwerk zuzugreifen, geben Sie  in der Eingabeaufforderung „Ausführen“ ```\\esp_hostname_or_ip\DavWWWRoot``` ein oder verwenden Sie das Menü „Netzlaufwerk verbinden“ im Windows Explorer.
 
-Der esp_hostname lautet: http://fysetc/DavWWWRoot
+Der original Name des esp_hostname lautet: http://fysetc/DavWWWRoot
 
 
 ### Kompilieren und hochladen
 
 #### Kompilieren
 
-Wenn Sie die Firmware nicht aktualisieren möchten. Sie müssen dies nicht tun. Kompilieren Sie das Programm und laden Sie es in ein ESP8266-Modul hoch.
+Wenn Sie die Firmware nicht aktualisieren möchten. 
+Sie müssen dies nicht tun. 
+Kompilieren Sie das Programm und laden Sie es in ein ESP8266-Modul hoch.
 
 - Öffnen Sie das Projekt
   
-   Laden Sie dieses gesamte Projekt herunter und öffnen Sie das Projekt aus dem Verzeichnis `ESPWebDAV-fysetc`mit der Software [arduino](https://www.arduino.cc/). 
+   Laden Sie dieses gesamte Projekt herunter und öffnen Sie das Projekt aus dem Verzeichnis `ESPWebDAV-fysetc` die Datei `ESPWebDAV.ino` mit der Software von [arduino](https://www.arduino.cc/). 
    Ändern Sie die `SETUP.INI` wie nachfolgend beschrieben. 
 
 - Board-Manager-Link hinzufügen
   
    Boardmanager-Link hinzufügen: `https://arduino.esp8266.com/stable/package_esp8266com_index.json` zu File->Preferences Boardmanager, Dokumentation: https://arduino-esp8266.readthedocs.io/en/2.7.1/
+   Dort wo `Zusätzliche Boardverwalter-URLs:` steht.
 
-- Brett auswählen
+- Board auswählen
   
-   Wählen Sie Tools->Boards->Generic ESP8285 Module.
-
+   Wählen Sie Tools->Boards->Alle und geben in die Suchleiste `Generic ESP8285 Module` ein und klicken dann unten auf den installieren-Button.
+	![Ardurino - Generic ESP8285 Module](assets/Ardurino-Generic_ESP8285_Module.png)
 - Klicken Sie auf die Arduino-Kompilierungsschaltfläche
 
+
+- In der Boward Verwaltung geben sie ESP8266 Community ein und installieren Version 2.4.0. 
+- Im Bibleotheksverwalter geben Sie `sdFAT` von Bill Greiman ein und installieren Version 1.1.0 wenn möglich. 
+- Unter Werkzeuge gehen Sie auf `Board: "Generic ESP8266 Module"` gehen dort zu `ESP8266` und wählen `Generic ESP8266 Module` aus. 
+- Unter Werkzeuge gehen Sie auf `` und wählen `v2 higher Bandwidth`. 
+- Unter Werkzeuge gehen Sie auf ``. 
+
+## Kompilerungsfehler:
+
+##### Dateifehler  ESPWebDAV.h`  
+missing file error "cannot find ESPWebDAV.h", even though it is in the compiling folder.  
+The version of esp8266 in the board manager needs to be 2.4. 
+And clean up your output folder.   
+
+fehlender Dateifehler "kann ESPWebDAV.h nicht finden", obwohl es sich im Kompilierungsordner befindet.  
+Die Version von esp8266 im Boardmanager muss 2.4 sein. 
+Und bereinigen Sie Ihren Ausgabeordner. 
+
+
+##### Kompilierungsfehler: `ESPWebDAV.h`
+Compilation error: ESPWebDAV.h: No such file or directory  
+Kompilierungsfehler: ESPWebDAV.h: Keine solche Datei oder Verzeichnis. 
+https://www.facebook.com/groups/197476557529090/posts/619035958706479/
+https://github.com/Aircoookie/Espalexa/issues/40
+[2 Easy fixes to Arduino error: “.h: No such file or directory"](https://www.youtube.com/watch?v=igdBT0hwsJc)
+
+
+##### Fehlgeschlagenes Hochladen
+FatalError('Failed to connect to %s: %s' % (self.CHIP_NAME, last_error))
+esptool.FatalError: Failed to connect to ESP8266: Timed out waiting for packet header
+
+Fehlgeschlagenes Hochladen: Hochladefehler: exit status 1
+Sollte noch ein Uploadfehler erscheien, dann haben Sie die FLSH Taste sicherlich vergessen zu drücken. 
+
+
+#### Weitere Fehlermeldungen auf: 
+https://github.com/ardyesp/ESPWebDAV/issues
+https://github.com/FYSETC/FYSETC-SD-WIFI/issues
+
+#### Einfache Lösung
+
+Sinvoll bei dem Kompilieren (auch wenn nur zum Testen) soll schon zuvor die ESP an dem richtigen COM-Port angeschlossen sein. 
+Dann sollte es auch mit dem Kompilieren erfolgreich funktionieren und die vorherigen Fehler werden ausgeschlossen sein. 
+Und die FLSH Taste an der ESP sicherlich vergessen zu drücken. 
 
 
 #### Hochladen
@@ -81,7 +144,8 @@ Zuerst können Sie unser Video [hier](https://www.youtube.com/watch?v=YAFAK-jPcO
 
 #### Option 1: INI-Datei
 
-Sie können die Beispieldatei ```SETUP.INI``` im Ordner ```ini``` bearbeiten, den SSID- und PASSWORD-Wert ändern. Kopieren Sie dann die Datei „SETUP.INI“ auf Ihre Root-SD-Karte. Stecken Sie es dann in das Modul.
+Sie können die Beispieldatei ```SETUP.INI``` im Ordner ```ini``` bearbeiten, den SSID- und PASSWORD-Wert ändern. 
+Kopieren Sie dann die Datei „SETUP.INI“ auf Ihre Root-SD-Karte. Stecken Sie es dann in das Modul.
 
 1. Drehen Sie den Optionsschalter des Moduls auf ```USB2UART```
 2. Öffnen Sie eine COM-Software auf Ihrem Computer
@@ -112,7 +176,7 @@ Verwenden Sie den folgenden Befehl, um eine Verbindung zum Netzwerk herzustellen
 
 #### Fenster
 
-Um von Windows aus auf das Laufwerk zuzugreifen, geben Sie ```\\ip\DavWWWRoot``` am Run-Prompt ein, dies wird in der seriellen Ausgabe als unser [video](https://www.youtube.com/watch?v= YAFAK-jPcOs) zeigt.
+Um von Windows aus auf das Laufwerk zuzugreifen, geben Sie ```\\ip\DavWWWRoot``` am Run-Prompt ein, dies wird in der seriellen Ausgabe als unser [video](https://www.youtube.com/watch?v=YAFAK-jPcOs) zeigt.
 
 Oder verwenden Sie das Menü Netzlaufwerk verbinden im Windows Explorer.
 
