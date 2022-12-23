@@ -1,15 +1,14 @@
 ## WebDAV-Server und ein 3D-Drucker
 
-[fysetc sd-wifi setup](https://www.youtube.com/results?search_query=fysetc+sd-wifi+setup+ "fysetc sd-wifi setup")  
+[YouTube Suche: fysetc sd-wifi setup](https://www.youtube.com/results?search_query=fysetc+sd-wifi+setup+ "fysetc sd-wifi setup")  
 
-[FYSETC SD Wifi Wireless Transmission Module Introduction](https://www.youtube.com/watch?v=2aW-65--NJk "FYSETC SD Wifi Wireless Transmission Module Introduction")  
+[YouTube: FYSETC SD Wifi Wireless Transmission Module Introduction](https://www.youtube.com/watch?v=2aW-65--NJk "FYSETC SD Wifi Wireless Transmission Module Introduction")  
 https://github.com/ardyesp/ESPWebDAV
 
-[Andere Version Pronterface für Windows 10: sscom5.12.1.exe, sscom51.ini](https://github.com/FYSETC/sscom "original Download von Fysetc")
-[Anleitung zu sscom](http://www.sscom.vip/)
+Die Software des vorherigen Videos kann man hier downloaden und stellt eine [andere Version zu Pronterface für Windows 10: sscom5.12.1.exe, sscom51.ini](https://github.com/FYSETC/sscom "original Download von Fysetc")  
+[Bedienungsanleitung zu sscom](http://www.sscom.vip/)
 
-
-[SD Card + ESP8266 = OctoPrint Alternative?](https://www.youtube.com/watch?v=nHNZPRl8gzA&t=566s "SD Card + ESP8266 = OctoPrint Alternative?")  
+[YouTube: SD Card + ESP8266 = OctoPrint Alternative?](https://www.youtube.com/watch?v=nHNZPRl8gzA&t=566s "YouTube: SD Card + ESP8266 = OctoPrint Alternative?")  
 [Kaufen: FYSETC SD Wifi Wireless Transmission Module + ESP8266](https://www.fysetc.com/collections/other-modules/products/fysetc-sd-wifi-with-card-reader-module-run-espwebdev-onboard-usb-to-serial-chip-wireless-transmission-module-for-s6-f6-turbo?variant=37578391027887)
 
 Dieses Projekt ist ein WiFi-WebDAV-Server mit ESP8266 SoC. 
