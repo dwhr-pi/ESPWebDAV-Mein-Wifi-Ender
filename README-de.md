@@ -1,6 +1,17 @@
 ## WebDAV-Server und ein 3D-Drucker
 
-[SD Card + ESP8266 = OctoPrint Alternative?](https://www.youtube.com/watch?v=nHNZPRl8gzA&t=566s "")  
+[fysetc sd-wifi setup](https://www.youtube.com/results?search_query=fysetc+sd-wifi+setup+ "fysetc sd-wifi setup")  
+
+[FYSETC SD Wifi Wireless Transmission Module Introduction](https://www.youtube.com/watch?v=2aW-65--NJk "FYSETC SD Wifi Wireless Transmission Module Introduction")  
+https://github.com/ardyesp/ESPWebDAV
+
+[Andere Version Pronterface für Windows 10: sscom5.12.1.exe, sscom51.ini](https://github.com/FYSETC/sscom "original Download von Fysetc")
+[Anleitung zu sscom](http://www.sscom.vip/)
+
+
+[SD Card + ESP8266 = OctoPrint Alternative?](https://www.youtube.com/watch?v=nHNZPRl8gzA&t=566s "SD Card + ESP8266 = OctoPrint Alternative?")  
+https://www.fysetc.com/collections/other-modules/products/fysetc-sd-wifi-with-card-reader-module-run-espwebdev-onboard-usb-to-serial-chip-wireless-transmission-module-for-s6-f6-turbo?variant=37578391027887
+
 Dieses Projekt ist ein WiFi-WebDAV-Server mit ESP8266 SoC. 
 Es verwaltet das Dateisystem auf einer SD-Karte.
 
@@ -70,7 +81,16 @@ Kompilieren Sie das Programm und laden Sie es in ein ESP8266-Modul hoch.
 	![Ardurino - Generic ESP8285 Module](assets/Ardurino-Generic_ESP8285_Module.png)
 - Klicken Sie auf die Arduino-Kompilierungsschaltfläche
 
-## Kompilerfehler
+
+- In der Boward Verwaltung geben sie ESP8266 Community ein und installieren Version 2.4.0. 
+- Im Bibleotheksverwalter geben Sie `sdFAT` von Bill Greiman ein und installieren Version 1.1.0 wenn möglich. 
+- Unter Werkzeuge gehen Sie auf `Board: "Generic ESP8266 Module"` gehen dort zu `ESP8266` und wählen `Generic ESP8266 Module` aus. 
+- Unter Werkzeuge gehen Sie auf `` und wählen `v2 higher Bandwidth`. 
+- Unter Werkzeuge gehen Sie auf ``. 
+
+## Kompilerungsfehler:
+
+##### Dateifehler  ESPWebDAV.h`  
 missing file error "cannot find ESPWebDAV.h", even though it is in the compiling folder.  
 The version of esp8266 in the board manager needs to be 2.4. 
 And clean up your output folder.   
@@ -79,6 +99,8 @@ fehlender Dateifehler "kann ESPWebDAV.h nicht finden", obwohl es sich im Kompili
 Die Version von esp8266 im Boardmanager muss 2.4 sein. 
 Und bereinigen Sie Ihren Ausgabeordner. 
 
+
+##### Kompilierungsfehler: `ESPWebDAV.h`
 Compilation error: ESPWebDAV.h: No such file or directory  
 Kompilierungsfehler: ESPWebDAV.h: Keine solche Datei oder Verzeichnis. 
 https://www.facebook.com/groups/197476557529090/posts/619035958706479/
@@ -86,8 +108,23 @@ https://github.com/Aircoookie/Espalexa/issues/40
 [2 Easy fixes to Arduino error: “.h: No such file or directory"](https://www.youtube.com/watch?v=igdBT0hwsJc)
 
 
-Weitere Fehlermeldungen auf: 
+##### Fehlgeschlagenes Hochladen
+FatalError('Failed to connect to %s: %s' % (self.CHIP_NAME, last_error))
+esptool.FatalError: Failed to connect to ESP8266: Timed out waiting for packet header
+
+Fehlgeschlagenes Hochladen: Hochladefehler: exit status 1
+Sollte noch ein Uploadfehler erscheien, dann haben Sie die FLSH Taste sicherlich vergessen zu drücken. 
+
+
+#### Weitere Fehlermeldungen auf: 
 https://github.com/ardyesp/ESPWebDAV/issues
+https://github.com/FYSETC/FYSETC-SD-WIFI/issues
+
+#### Einfache Lösung
+
+Sinvoll bei dem Kompilieren (auch wenn nur zum Testen) soll schon zuvor die ESP an dem richtigen COM-Port angeschlossen sein. 
+Dann sollte es auch mit dem Kompilieren erfolgreich funktionieren und die vorherigen Fehler werden ausgeschlossen sein. 
+Und die FLSH Taste an der ESP sicherlich vergessen zu drücken. 
 
 
 #### Hochladen
@@ -139,7 +176,7 @@ Verwenden Sie den folgenden Befehl, um eine Verbindung zum Netzwerk herzustellen
 
 #### Fenster
 
-Um von Windows aus auf das Laufwerk zuzugreifen, geben Sie ```\\ip\DavWWWRoot``` am Run-Prompt ein, dies wird in der seriellen Ausgabe als unser [video](https://www.youtube.com/watch?v= YAFAK-jPcOs) zeigt.
+Um von Windows aus auf das Laufwerk zuzugreifen, geben Sie ```\\ip\DavWWWRoot``` am Run-Prompt ein, dies wird in der seriellen Ausgabe als unser [video](https://www.youtube.com/watch?v=YAFAK-jPcOs) zeigt.
 
 Oder verwenden Sie das Menü Netzlaufwerk verbinden im Windows Explorer.
 
