@@ -1,16 +1,14 @@
 ## WebDAV-Server und ein 3D-Drucker
 
-[fysetc sd-wifi setup](https://www.youtube.com/results?search_query=fysetc+sd-wifi+setup+ "fysetc sd-wifi setup")  
+[YouTube Suche: fysetc sd-wifi setup](https://www.youtube.com/results?search_query=fysetc+sd-wifi+setup+ "fysetc sd-wifi setup")  
 
-[FYSETC SD Wifi Wireless Transmission Module Introduction](https://www.youtube.com/watch?v=2aW-65--NJk "FYSETC SD Wifi Wireless Transmission Module Introduction")  
-https://github.com/ardyesp/ESPWebDAV
+[YouTube: FYSETC SD Wifi Wireless Transmission Module Introduction](https://www.youtube.com/watch?v=2aW-65--NJk "FYSETC SD Wifi Wireless Transmission Module Introduction") 
+Das originale [Repository auf GitHub](https://github.com/ardyesp/ESPWebDAV "Das original Repository auf GitHub"). 
+Die Software des vorherigen Videos kann man hier downloaden und stellt eine [andere Version zu Pronterface für Windows 10: sscom5.12.1.exe, sscom51.ini](https://github.com/FYSETC/sscom "original Download von Fysetc") da, mit weiteren Testmöglichkeiten. 
+Die Bedienungsanleitung zu [sscom.vip](http://www.sscom.vip/) ist dortig. 
 
-[Andere Version Pronterface für Windows 10: sscom5.12.1.exe, sscom51.ini](https://github.com/FYSETC/sscom "original Download von Fysetc")
-[Anleitung zu sscom](http://www.sscom.vip/)
-
-
-[SD Card + ESP8266 = OctoPrint Alternative?](https://www.youtube.com/watch?v=nHNZPRl8gzA&t=566s "SD Card + ESP8266 = OctoPrint Alternative?")  
-https://www.fysetc.com/collections/other-modules/products/fysetc-sd-wifi-with-card-reader-module-run-espwebdev-onboard-usb-to-serial-chip-wireless-transmission-module-for-s6-f6-turbo?variant=37578391027887
+[YouTube: SD Card + ESP8266 = OctoPrint Alternative?](https://www.youtube.com/watch?v=nHNZPRl8gzA&t=566s "YouTube: SD Card + ESP8266 = OctoPrint Alternative?")  
+[Kaufen: FYSETC SD Wifi Wireless Transmission Module + ESP8266](https://www.fysetc.com/collections/other-modules/products/fysetc-sd-wifi-with-card-reader-module-run-espwebdev-onboard-usb-to-serial-chip-wireless-transmission-module-for-s6-f6-turbo?variant=37578391027887)
 
 Dieses Projekt ist ein WiFi-WebDAV-Server mit ESP8266 SoC. 
 Es verwaltet das Dateisystem auf einer SD-Karte.
@@ -35,6 +33,12 @@ GCode kann direkt vom Slicer (Cura) auf dieses Remote-Laufwerk hochgeladen werde
 1. [ESP8266 Arduino Core version 2.4](https://github.com/esp8266/Arduino)
 2. [SdFat library](https://github.com/greiman/SdFat)
   
+
+## Vorab Testen
+
+man kann den Quellcode auch einfach auf eine mSD kopieren. 
+Dieser wird auch weitreichend funktionieren, allerdings funktioniert dann der WebDav-Server nicht richtig. 
+Und kann keine Dateien auf die mSD über die WiFi (WLan-) Verbindung kopieren oder löschen. 
 
 ## Verwendung  :
 Kompilieren Sie das Programm und laden Sie es in ein ESP8266-Modul hoch. 
@@ -82,11 +86,12 @@ Kompilieren Sie das Programm und laden Sie es in ein ESP8266-Modul hoch.
 - Klicken Sie auf die Arduino-Kompilierungsschaltfläche
 
 
-- In der Boward Verwaltung geben sie ESP8266 Community ein und installieren Version 2.4.0. 
+- In der Board Verwaltung geben sie `ESP8266 Community` ein und installieren die Version 2.4.0. 
 - Im Bibleotheksverwalter geben Sie `sdFAT` von Bill Greiman ein und installieren Version 1.1.0 wenn möglich. 
 - Unter Werkzeuge gehen Sie auf `Board: "Generic ESP8266 Module"` gehen dort zu `ESP8266` und wählen `Generic ESP8266 Module` aus. 
-- Unter Werkzeuge gehen Sie auf `` und wählen `v2 higher Bandwidth`. 
-- Unter Werkzeuge gehen Sie auf ``. 
+- Unter Werkzeuge gehen Sie auf `IwIP Variant` und wählen dort `v2 higher Bandwidth` für eine höhere Bandbreite des Netzwerks. 
+- Unter Werkzeuge gehen Sie auf `Port` und verbinden Ihre ESP bitte mit dem richtigen COM-Port, meißt ist dort nur einer bzw. zwei verfügbar. 
+  (Faustformel hierzu: ESP einstecken und herrausziehen, verrät welcher COM-Port einzustellen und zu nutzen ist. Anssonsten mal einen anderen USB-Port versuchen oder übrige USB-Geräte vom PC entfernen.)
 
 ## Kompilerungsfehler:
 

@@ -146,7 +146,7 @@ void Gcode::gcode_M53() {
     SERIAL_ECHO("IP address: "); SERIAL_ECHOLN(WiFi.localIP());
     SERIAL_ECHO("RSSI: "); SERIAL_ECHOLN(WiFi.RSSI());
     SERIAL_ECHO("Mode: "); SERIAL_ECHOLN(WiFi.getPhyMode());
-    SERIAL_ECHO("Asscess to SD at the Run prompt : \\\\"); SERIAL_ECHO(WiFi.localIP());SERIAL_ECHOLN("\\Ender 3 Pro");
+    SERIAL_ECHO("Asscess to SD at the Run prompt : \\\\"); SERIAL_ECHO(WiFi.localIP());SERIAL_ECHOLN("\\DavWWWRoot");
   }
 }
 

@@ -1,6 +1,6 @@
 /* Using the WebDAV server
 	From windows - 
-		Run: \\HOSTNAME\Ender 3 Pro
+		Run: \\HOSTNAME\DavWWWRoot
 		or Map Network Drive -> Connect to a Website
 */
 

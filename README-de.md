@@ -1,4 +1,9 @@
 ## WebDAV-Server und ein 3D-Drucker
+[ESP8266 Programmer Sockel Downloader Für ESP-07 ESP-12F ESP-12S](https://arduino-projekte.info/produkt/esp8266-programmer-sockel-downloader-fuer-esp-07-esp-12f-esp-12s/)
+[ESP-12S ESP8266 WiFi Modul](https://arduino-projekte.info/produkt/esp-12s-esp8266-wifi-modul/)
+[SD-WIFI mit SD reader Modul, Drahtlose Übertragung Modul für S6 F6, Raspberry](https://www.amazon.de/-/en/reader-module-wireless-transmission-Raspberry/dp/B091HXS8XM/ref=sr_1_5?crid=3JY3ZWGEJVMDF&keywords=fysetc+wifi&qid=1671769092&sprefix=fysetc+wifi%2Caps%2C213&sr=8-5)
+
+https://www.amazon.com/-/de/dp/B0B8SDH4ZK/ref=sr_1_11?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=28FPBGNBOEDGX&keywords=fysetc+wifi&qid=1671768758&sprefix=fystec+wifi%2Caps%2C179&sr=8-11
 
 [YouTube Suche: fysetc sd-wifi setup](https://www.youtube.com/results?search_query=fysetc+sd-wifi+setup+ "fysetc sd-wifi setup")  
 
@@ -37,8 +42,9 @@ GCode kann direkt vom Slicer (Cura) auf dieses Remote-Laufwerk hochgeladen werde
 ## Vorab Testen
 
 man kann den Quellcode auch einfach auf eine mSD kopieren. 
-Dieser wird auch weitreichend funktionieren, allerdings funktioniert dann der WebDav-Server nicht richtig. 
+Dieser wird auch weitreichend funktionieren, allerdings funktioniert dann der WebDav-Server nicht richtig, Wlan funktioniert schon. 
 Und kann keine Dateien auf die mSD über die WiFi (WLan-) Verbindung kopieren oder löschen. 
+Im Browser erhält man den Fehler ""Failed to initialize SD Card"" 
 
 ## Verwendung  :
 Kompilieren Sie das Programm und laden Sie es in ein ESP8266-Modul hoch. 
@@ -86,7 +92,7 @@ Kompilieren Sie das Programm und laden Sie es in ein ESP8266-Modul hoch.
 - Klicken Sie auf die Arduino-Kompilierungsschaltfläche
 
 
-- In der Boward Verwaltung geben sie `ESP8266 Community` ein und installieren Version 2.4.0. 
+- In der Board Verwaltung geben sie `ESP8266 Community` ein und installieren die Version 2.4.0. 
 - Im Bibleotheksverwalter geben Sie `sdFAT` von Bill Greiman ein und installieren Version 1.1.0 wenn möglich. 
 - Unter Werkzeuge gehen Sie auf `Board: "Generic ESP8266 Module"` gehen dort zu `ESP8266` und wählen `Generic ESP8266 Module` aus. 
 - Unter Werkzeuge gehen Sie auf `IwIP Variant` und wählen dort `v2 higher Bandwidth` für eine höhere Bandbreite des Netzwerks. 
@@ -127,9 +133,9 @@ https://github.com/FYSETC/FYSETC-SD-WIFI/issues
 
 #### Einfache Lösung
 
-Sinvoll bei dem Kompilieren (auch wenn nur zum Testen) soll schon zuvor die ESP an dem richtigen COM-Port angeschlossen sein. 
+Sinvoll bei dem Kompilieren (auch wenn nur zum Testen alles auf die mSD zuvor kopiert [alles davon löschen]), es soll schon zuvor die ESP an dem richtigen COM-Port angeschlossen sein. 
 Dann sollte es auch mit dem Kompilieren erfolgreich funktionieren und die vorherigen Fehler werden ausgeschlossen sein. 
-Und die FLSH Taste an der ESP sicherlich vergessen zu drücken. 
+Und die FLSH Taste an der ESP sicherlich vergessen zu drücken, soblad diese an den PC angesteckt wird. 
 
 
 #### Hochladen
@@ -140,6 +146,8 @@ Und die FLSH Taste an der ESP sicherlich vergessen zu drücken.
 4. Verbinden Sie das USB-Kabel mit dem Modul
 5. Lassen Sie die FLSH-Taste des Moduls los
 6. Klicken Sie auf die Arduino-Upload-Schaltfläche
+7. Zum Schluß und nach erfolgreichem Upload, verlangt die Arduino IDE, das man den Hart-Reset-Taste (RST) auf der ESP (neben der FLSH-Taste) drückt und dann die Karte vom PC entfernt. 
+8. Stellen Sie den Schalter am Modul auf „CARDREADER“.
 
 ### Konfiguration
 
