@@ -42,14 +42,18 @@ GCode kann direkt vom Slicer (Cura) auf dieses Remote-Laufwerk hochgeladen werde
 ## Vorab Testen
 
 man kann den Quellcode auch einfach auf eine mSD kopieren. 
-Dieser wird auch weitreichend funktionieren, allerdings funktioniert dann der WebDav-Server nicht richtig, Wlan funktioniert schon. 
-Und kann keine Dateien auf die mSD über die WiFi (WLan-) Verbindung kopieren oder löschen. 
-Im Browser erhält man den Fehler ""Failed to initialize SD Card"" 
+Dieser wird zwar auch weitreichend funktionieren, allerdings funktioniert dann der WebDav-Server nicht richtig, Wlan funktioniert schon irgendwie. 
+Kann allerdings keine Dateien auf die mSD über die WiFi (WLan-) Verbindung kopieren oder löschen. 
+Im Browser erhält man den Fehler ""Failed to initialize SD Card"", wie auch im Drucker. 
 
 ## Verwendung  :
 Kompilieren Sie das Programm und laden Sie es in ein ESP8266-Modul hoch. 
 ESP12-E wurde für Entwicklung und Tests verwendet.
 Verbinden Sie die SPI-Busleitungen mit der SD-Karte.  
+[Programming ESP-12E / ESP-12F / NodeMCU With Arduino IDE | Step by Step Guide](https://www.youtube.com/watch?v=_iX67plFeLs)
+[Programming ESP-12E / ESP-12F / NodeMCU Over Wi-Fi](https://www.youtube.com/watch?v=3XyaDyu8UDw)
+[ESP12E, Einstieg mit dem ESP8266 Modul](https://www.mikrocontroller-elektronik.de/esp12e-tutorial-einstieg-mit-dem-esp8266-modul/)
+https://www.google.com/search?q=esp-12e+programming&oq=ESP-12E+&aqs=chrome.2.69i57j0i512l4j0i30i625l2j69i61.27801j0j7&sourceid=chrome&ie=UTF-8
 
 
 ESP Module|SD Card
@@ -99,7 +103,9 @@ Kompilieren Sie das Programm und laden Sie es in ein ESP8266-Modul hoch.
 - Unter Werkzeuge gehen Sie auf `Port` und verbinden Ihre ESP bitte mit dem richtigen COM-Port, meißt ist dort nur einer bzw. zwei verfügbar. 
   (Faustformel hierzu: ESP einstecken und herrausziehen, verrät welcher COM-Port einzustellen und zu nutzen ist. Anssonsten mal einen anderen USB-Port versuchen oder übrige USB-Geräte vom PC entfernen.)
 
-## Kompilerungsfehler:
+## Kompilerungsfehler: 
+Diese sind in der Regel das Ergebnis, weil man die Daten einfach nur auf die mSD kopierte.... 
+Dies geht nicht so...
 
 ##### Dateifehler  ESPWebDAV.h`  
 missing file error "cannot find ESPWebDAV.h", even though it is in the compiling folder.  
@@ -118,7 +124,7 @@ https://www.facebook.com/groups/197476557529090/posts/619035958706479/
 https://github.com/Aircoookie/Espalexa/issues/40
 [2 Easy fixes to Arduino error: “.h: No such file or directory"](https://www.youtube.com/watch?v=igdBT0hwsJc)
 
-Um Kompilierungsfehlern zu entgehen, sehen sie sich das [Youtube: 2 Easy fixes to Arduino error: “.h: No such file or directory"](https://www.youtube.com/watch?v=igdBT0hwsJc&t=47s "2 Easy fixes to Arduino error: “.h: No such file or directory") an. 
+Um Kompilierungsfehler zu entgehen, sehen sie sich das [Youtube: 2 Easy fixes to Arduino error: “.h: No such file or directory"](https://www.youtube.com/watch?v=igdBT0hwsJc&t=47s "2 Easy fixes to Arduino error: “.h: No such file or directory") an. 
 
 ##### Fehlgeschlagenes Hochladen
 FatalError('Failed to connect to %s: %s' % (self.CHIP_NAME, last_error))
