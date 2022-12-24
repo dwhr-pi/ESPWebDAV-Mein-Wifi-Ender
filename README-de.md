@@ -118,6 +118,7 @@ https://www.facebook.com/groups/197476557529090/posts/619035958706479/
 https://github.com/Aircoookie/Espalexa/issues/40
 [2 Easy fixes to Arduino error: “.h: No such file or directory"](https://www.youtube.com/watch?v=igdBT0hwsJc)
 
+Um Kompilierungsfehlern zu entgehen, sehen sie sich das [Youtube: 2 Easy fixes to Arduino error: “.h: No such file or directory"](https://www.youtube.com/watch?v=igdBT0hwsJc&t=47s "2 Easy fixes to Arduino error: “.h: No such file or directory") an. 
 
 ##### Fehlgeschlagenes Hochladen
 FatalError('Failed to connect to %s: %s' % (self.CHIP_NAME, last_error))
