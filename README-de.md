@@ -37,13 +37,14 @@ GCode kann direkt vom Slicer (Cura) auf dieses Remote-Laufwerk hochgeladen werde
 ## Abhängigkeiten:  
 1. [ESP8266 Arduino Core version 2.4](https://github.com/esp8266/Arduino)
 2. [SdFat library](https://github.com/greiman/SdFat)
+3. [ESPWebDAV](https://github.com/d-a-v/ESPWebDAV)
   
 
 ## Vorab Testen
 
 man kann den Quellcode auch einfach auf eine mSD kopieren. 
-Dieser wird zwar auch weitreichend funktionieren, allerdings funktioniert dann der WebDav-Server nicht richtig, Wlan funktioniert schon irgendwie. 
-Kann allerdings keine Dateien auf die mSD über die WiFi (WLan-) Verbindung kopieren oder löschen. 
+Dieser wird zwar auch weitreichend funktionieren, allerdings funktioniert dann der WebDav-Server nicht richtig, WLan funktioniert schon irgendwie. 
+Man kann allerdings keine Dateien auf die mSD über die WiFi (WLan-) Verbindung kopieren oder löschen. 
 Im Browser erhält man den Fehler ""Failed to initialize SD Card"", wie auch im Drucker. 
 
 ## Verwendung  :
@@ -83,15 +84,18 @@ Kompilieren Sie das Programm und laden Sie es in ein ESP8266-Modul hoch.
   
    Laden Sie dieses gesamte Projekt herunter und öffnen Sie das Projekt aus dem Verzeichnis `ESPWebDAV-fysetc` die Datei `ESPWebDAV.ino` mit der Software von [arduino](https://www.arduino.cc/). 
    Ändern Sie die `SETUP.INI` wie nachfolgend beschrieben. 
+   
+   SSID=xxxx
+   PASSWORD=xxxx
 
 - Board-Manager-Link hinzufügen
   
-   Boardmanager-Link hinzufügen: `https://arduino.esp8266.com/stable/package_esp8266com_index.json` zu File->Preferences Boardmanager, Dokumentation: https://arduino-esp8266.readthedocs.io/en/2.7.1/
+   Boardmanager-Link hinzufügen: `https://arduino.esp8266.com/stable/package_esp8266com_index.json` zu File->Preferences und dirt bei Boardmanager, Dokumentation: https://arduino-esp8266.readthedocs.io/en/2.7.1/
    Dort wo `Zusätzliche Boardverwalter-URLs:` steht.
 
 - Board auswählen
   
-   Wählen Sie Tools->Boards->Alle und geben in die Suchleiste `Generic ESP8285 Module` ein und klicken dann unten auf den installieren-Button.
+   Wählen Sie Tools->Boards->Alle und geben in die Suchleiste `Generic ESP8266 Module` ein und klicken dann unten auf den installieren-Button.
 	![Ardurino - Generic ESP8285 Module](assets/Ardurino-Generic_ESP8285_Module.png)
 - Klicken Sie auf die Arduino-Kompilierungsschaltfläche
 
