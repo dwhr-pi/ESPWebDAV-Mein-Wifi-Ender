@@ -53,7 +53,8 @@ Man kann allerdings keine Dateien auf die mSD über die WiFi (WLan-) Verbindung 
 Im Browser erhält man den Fehler ""Failed to initialize SD Card"", wie auch im Drucker. 
 
 Um die ordendliche Installation vorzunehmen, sehen Sie sich dieses Video an. 
-Es wurde oben schon einmal angegeben und befindet sich im Download. 
+Es wurde oben schon einmal angegeben und befindet sich im Download.  
+[YouTube Suche: fysetc sd-wifi setup](_Video/FYSETC_How_to_upgrade_SD_Wifi_module_firmware.mp4 "")
 
 ## Verwendung  :
 Kompilieren Sie das Programm und laden Sie es in ein ESP8266-Modul hoch. 
