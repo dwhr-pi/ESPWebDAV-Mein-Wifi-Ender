@@ -61,10 +61,11 @@ Es wurde oben schon einmal angegeben und befindet sich im Download.
 Kompilieren Sie das Programm und laden Sie es in ein ESP8266-Modul hoch. 
 ESP12-E wurde für Entwicklung und Tests verwendet.
 Verbinden Sie die SPI-Busleitungen mit der SD-Karte.  
-[Programming ESP-12E / ESP-12F / NodeMCU With Arduino IDE | Step by Step Guide](https://www.youtube.com/watch?v=_iX67plFeLs)
-[Programming ESP-12E / ESP-12F / NodeMCU Over Wi-Fi](https://www.youtube.com/watch?v=3XyaDyu8UDw)
-[ESP12E, Einstieg mit dem ESP8266 Modul](https://www.mikrocontroller-elektronik.de/esp12e-tutorial-einstieg-mit-dem-esp8266-modul/)
-https://www.google.com/search?q=esp-12e+programming&oq=ESP-12E+&aqs=chrome.2.69i57j0i512l4j0i30i625l2j69i61.27801j0j7&sourceid=chrome&ie=UTF-8
+
+[Programming ESP-12E / ESP-12F / NodeMCU With Arduino IDE | Step by Step Guide](https://www.youtube.com/watch?v=_iX67plFeLs)  
+[Programming ESP-12E / ESP-12F / NodeMCU Over Wi-Fi](https://www.youtube.com/watch?v=3XyaDyu8UDw)  
+[ESP12E, Einstieg mit dem ESP8266 Modul](https://www.mikrocontroller-elektronik.de/esp12e-tutorial-einstieg-mit-dem-esp8266-modul/)  
+https://www.google.com/search?q=esp-12e+programming&oq=ESP-12E+&aqs=chrome.2.69i57j0i512l4j0i30i625l2j69i61.27801j0j7&sourceid=chrome&ie=UTF-8  
 
 
 ESP Module|SD Card
