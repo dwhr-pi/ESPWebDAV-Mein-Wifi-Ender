@@ -45,8 +45,8 @@ GCode kann direkt vom Slicer (Cura) auf dieses Remote-Laufwerk hochgeladen werde
 
 ## Vorab Testen
 
-man kann den Quellcode auch einfach auf eine mSD kopieren. 
-Dieser wird zwar auch weitreichend funktionieren, allerdings funktioniert dann der WebDav-Server nicht richtig, WLan funktioniert schon irgendwie. 
+Man kann den Quellcode auch einfach auf eine mSD kopieren und einlegen. 
+Dieser wird dann zwar auch weitreichend funktionieren, allerdings funktioniert dadurch der WebDav-Server nicht richtig, WLan funktioniert schon irgendwie. 
 Man kann allerdings keine Dateien auf die mSD über die WiFi (WLan-) Verbindung kopieren oder löschen. 
 Im Browser erhält man den Fehler ""Failed to initialize SD Card"", wie auch im Drucker. 
 
