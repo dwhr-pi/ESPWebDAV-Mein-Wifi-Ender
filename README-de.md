@@ -3,7 +3,7 @@
 [ESP-12S ESP8266 WiFi Modul](https://arduino-projekte.info/produkt/esp-12s-esp8266-wifi-modul/)  
 [SD-WIFI mit SD reader Modul, Drahtlose Übertragung Modul für S6 F6, Raspberry](https://www.amazon.de/-/en/reader-module-wireless-transmission-Raspberry/dp/B091HXS8XM/ref=sr_1_5?crid=3JY3ZWGEJVMDF&keywords=fysetc+wifi&qid=1671769092&sprefix=fysetc+wifi%2Caps%2C213&sr=8-5)  
 
-https://www.amazon.com/-/de/dp/B0B8SDH4ZK/ref=sr_1_11?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=28FPBGNBOEDGX&keywords=fysetc+wifi&qid=1671768758&sprefix=fystec+wifi%2Caps%2C179&sr=8-11  
+[Amazon](https://www.amazon.com/-/de/dp/B0B8SDH4ZK/ref=sr_1_11?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=28FPBGNBOEDGX&keywords=fysetc+wifi&qid=1671768758&sprefix=fystec+wifi%2Caps%2C179&sr=8-11 "")
 [YouTube Suche: fysetc sd-wifi setup](https://www.youtube.com/results?search_query=fysetc+sd-wifi+setup+ "fysetc sd-wifi setup")  
 
 
