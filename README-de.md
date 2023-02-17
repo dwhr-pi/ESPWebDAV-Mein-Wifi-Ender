@@ -43,7 +43,7 @@ GCode kann direkt vom Slicer (Cura) auf dieses Remote-Laufwerk hochgeladen werde
 ## Abhängigkeiten:  
 1. [ESP8266 Arduino Core version 2.4](https://github.com/esp8266/Arduino)
 2. [SdFat library](https://github.com/greiman/SdFat)
-3. [ESPWebDAV](https://github.com/d-a-v/ESPWebDAV)
+3. eventuell [ESPWebDAV](https://github.com/d-a-v/ESPWebDAV)
   
 
 ## Vorab Testen
