@@ -7,6 +7,9 @@ https://www.amazon.com/-/de/dp/B0B8SDH4ZK/ref=sr_1_11?__mk_de_DE=%C3%85M%C3%85%C
 
 ***** [YouTube Suche: fysetc sd-wifi setup](https://www.youtube.com/results?search_query=fysetc+sd-wifi+setup+ "fysetc sd-wifi setup")  
 
+
+[YouTube Suche: fysetc sd-wifi setup](_Video/FYSETC_How_to_upgrade_SD_Wifi_module_firmware.mp4 "")
+
 [YouTube: FYSETC SD Wifi Wireless Transmission Module Introduction](https://www.youtube.com/watch?v=2aW-65--NJk "FYSETC SD Wifi Wireless Transmission Module Introduction") 
 Das originale [Repository auf GitHub](https://github.com/ardyesp/ESPWebDAV "Das original Repository auf GitHub"). 
 Die Software des vorherigen Videos kann man hier downloaden und stellt eine [andere Version zu Pronterface für Windows 10: sscom5.12.1.exe, sscom51.ini](https://github.com/FYSETC/sscom "original Download von Fysetc") da, mit weiteren Testmöglichkeiten. 
