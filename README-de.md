@@ -5,10 +5,12 @@
 
 https://www.amazon.com/-/de/dp/B0B8SDH4ZK/ref=sr_1_11?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=28FPBGNBOEDGX&keywords=fysetc+wifi&qid=1671768758&sprefix=fystec+wifi%2Caps%2C179&sr=8-11
 
+
+
 ***** [YouTube Suche: fysetc sd-wifi setup](https://www.youtube.com/results?search_query=fysetc+sd-wifi+setup+ "fysetc sd-wifi setup")  
-
-
 [YouTube Suche: fysetc sd-wifi setup](_Video/FYSETC_How_to_upgrade_SD_Wifi_module_firmware.mp4 "")
+
+
 
 [YouTube: FYSETC SD Wifi Wireless Transmission Module Introduction](https://www.youtube.com/watch?v=2aW-65--NJk "FYSETC SD Wifi Wireless Transmission Module Introduction") 
 Das originale [Repository auf GitHub](https://github.com/ardyesp/ESPWebDAV "Das original Repository auf GitHub"). 
@@ -46,9 +48,12 @@ GCode kann direkt vom Slicer (Cura) auf dieses Remote-Laufwerk hochgeladen werde
 ## Vorab Testen
 
 Man kann den Quellcode auch einfach auf eine mSD kopieren und einlegen. 
-Dieser wird dann zwar auch weitreichend funktionieren, allerdings funktioniert dadurch der WebDav-Server nicht richtig, WLan funktioniert schon irgendwie. 
+Dieser wird dann auch weitreichend funktionieren, allerdings funktioniert dadurch der WebDav-Server nicht richtig, WLan funktioniert schon irgendwie. 
 Man kann allerdings keine Dateien auf die mSD über die WiFi (WLan-) Verbindung kopieren oder löschen. 
 Im Browser erhält man den Fehler ""Failed to initialize SD Card"", wie auch im Drucker. 
+
+Um die ordendliche Installation vorzunehmen, sehen Sie sich dieses Video an. 
+Es wurde oben schon einmal angegeben und befindet sich im Download. 
 
 ## Verwendung  :
 Kompilieren Sie das Programm und laden Sie es in ein ESP8266-Modul hoch. 
