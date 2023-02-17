@@ -5,7 +5,7 @@
 
 https://www.amazon.com/-/de/dp/B0B8SDH4ZK/ref=sr_1_11?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=28FPBGNBOEDGX&keywords=fysetc+wifi&qid=1671768758&sprefix=fystec+wifi%2Caps%2C179&sr=8-11
 
-[YouTube Suche: fysetc sd-wifi setup](https://www.youtube.com/results?search_query=fysetc+sd-wifi+setup+ "fysetc sd-wifi setup")  
+***** [YouTube Suche: fysetc sd-wifi setup](https://www.youtube.com/results?search_query=fysetc+sd-wifi+setup+ "fysetc sd-wifi setup")  
 
 [YouTube: FYSETC SD Wifi Wireless Transmission Module Introduction](https://www.youtube.com/watch?v=2aW-65--NJk "FYSETC SD Wifi Wireless Transmission Module Introduction") 
 Das originale [Repository auf GitHub](https://github.com/ardyesp/ESPWebDAV "Das original Repository auf GitHub"). 
@@ -162,7 +162,8 @@ Und die FLSH Taste an der ESP sicherlich vergessen zu drücken, soblad diese an 
 
 ### Konfiguration
 
-Zuerst können Sie unser Video [hier](https://www.youtube.com/watch?v=YAFAK-jPcOs) sehen. Sie haben zwei Möglichkeiten, das Modul zu konfigurieren.
+Zuerst können Sie unser Video [hier](https://www.youtube.com/watch?v=YAFAK-jPcOs) oder [hier](https://www.youtube.com/watch?v=2aW-65--NJk&t=8s) sehen. 
+Sie haben zwei Möglichkeiten, das Modul zu konfigurieren.
 
 *Hinweis: Die Karte sollte für Fat16 oder Fat32 formatiert sein*
 
@@ -343,4 +344,9 @@ Lieferumfang: 1 Stück
 
 1. 12 Monate eingeschränkte Herstellergarantie für defekte Artikel (ausgenommen Artikel, die nach Erhalt beschädigt und/oder zweckentfremdet wurden). Das Zubehör wird mit einer 3-monatigen Garantie geliefert.
 2. Defekte Artikel MÜSSEN innerhalb der Garantiezeit (und wenn möglich in der Originalverpackung) gemeldet und zurückgesendet werden. Sie müssen uns den Mangel mitteilen und uns Ihre Bestellnummer mitteilen.  
-WIR REPARIEREN ODER ERSETZEN KEINE ARTIKEL MIT ABGELAUFENER GARANTIE.
+WIR REPARIEREN ODER ERSETZEN KEINE ARTIKEL MIT ABGELAUFENER GARANTIE. 
+
+
+
+
+https://github.com/FYSETC/FYSETC-SD-WIFI
